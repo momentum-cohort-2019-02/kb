@@ -20,38 +20,39 @@ M - Group A, Tu - Group B, W - Group C, Th - Group D
 
 # Student groups
 
-## Group A
-
-- Ryan Catrine
-- Taylor Cooke
-- David Kirk
-- Daniel Miller
-- Bailey Costin
-- Michael Taylor
-
-## Group B
+# Group A
 
 - Abby Demarest
-- Keely Kirkpatrick
-- Craig Brunengraber
-- Rob Taylor
-- Aaron Sellek
-- Kristin Clements
-
-## Group C
-
-- Yifaa Yapuncich
-- Kasey Tiller
-- Chinh Le
-- Christian Medlin
-- Lin Navarro
-- John Mowrey
-
-## Group D
-
+- Daniel Miller
+- David Kirk
 - Juan Polanco
-- Dennis Dinwiddie
+- Keely Kirkpatrick
+- Rob Taylor
+- Ryan Catrine
+
+# Group B
+
+- Anna Smith
+- Bailey Costin
+- Craig Brunengraber
 - Josh Torain
+- Taylor Cooke
+- Yifaa Yapuncich
+
+# Group C
+
+- Aaron Sellek
 - Brian Gribbon
-- Daniel Peterson
+- Christian Medlin
+- Dennis Dinwiddie
+- Kristin Clements
+- Lin Navarro
+
+# Group D
+
 - AJ Bryce
+- Chinh Le
+- Daniel Peterson
+- John Mowrey
+- Kasey Tiller
+- Michael Taylor
