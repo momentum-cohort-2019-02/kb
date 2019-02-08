@@ -24,7 +24,7 @@ _Question of the day:_ What does a developer do all day?
   - [Really Friendly Command Line Intro](https://drive.google.com/file/d/1_2LTtR6f5bFCC5wjFZc9ILA7vmru7ShK/view)
 
 - Git
-  - [Git slides](git.pdf)
+  - [Git slides](notes/git.pdf)
   - [Learn Git Branching](https://learngitbranching.js.org/)
   - [GitHub Learning Lab](https://lab.github.com/)
 
@@ -42,6 +42,7 @@ _Question of the day:_ How would you present a recipe on a web page?
 
 ### References
 
+- [Notes from class](notes/html.slides.md)
 - [MDN Web Docs: HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 
 ### Assignment
@@ -59,8 +60,10 @@ _Question of the day:_ How do you take an image and turn it into a web page?
 
 ### References
 
+- [Notes from class](notes/css.slides.md)
 - [MDN Web Docs: CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 - [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+- [Flexbox Froggy](https://flexboxfroggy.com/)
 
 ### Assignment
 
