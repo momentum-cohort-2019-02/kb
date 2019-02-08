@@ -31,32 +31,45 @@ _Question of the day:_ What does a developer do all day?
 ### Assignment
 
 - [Setup git repo](https://classroom.github.com/a/EyaZMqtf)
+- Read [_Getting started with HTML_](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started)
 - Read [_A Brief History of Markup_](https://alistapart.com/article/a-brief-history-of-markup)
 
 ## Day 2
 
-_Question of the day:_ How would you present and style a recipe on a web page?
+_Question of the day:_ How would you present a recipe on a web page?
 
 - HTML
 
 ### References
 
-- [A Brief History of Markup](https://alistapart.com/article/a-brief-history-of-markup)
+- [MDN Web Docs: HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 
 ### Assignment
 
-[Small business HTML](https://classroom.github.com/a/utf9F0pz)
+- [Small business HTML](https://classroom.github.com/a/utf9F0pz)
+- Read [CSS Basics](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics)
+- Read [How to Learn CSS](https://www.smashingmagazine.com/2019/01/how-to-learn-css/)
 
 ## Day 3
+
+_Question of the day:_ How do you take an image and turn it into a web page?
 
 - CSS
 - Wireframes and mockups
 
+### References
+
+- [MDN Web Docs: CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+
 ### Assignment
 
-[Dog adoption site](https://classroom.github.com/a/b9qlA3Gz)
+- [Dog adoption site](https://classroom.github.com/a/b9qlA3Gz)
+- Read [7 Rules for Creating Gorgeous UI, Part 1](https://medium.com/@erikdkennedy/7-rules-for-creating-gorgeous-ui-part-1-559d4e805cda) and [Part 2](https://medium.com/@erikdkennedy/7-rules-for-creating-gorgeous-ui-part-2-430de537ba96)
 
 ## Day 4
+
+_Question of the day:_ What's your favorite web site design?
 
 - Web design
 - Accessibility

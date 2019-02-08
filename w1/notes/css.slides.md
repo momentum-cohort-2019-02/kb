@@ -336,6 +336,17 @@ height: 10rem;
 
 ---
 
+# Flexbox
+
+Flexbox is one of three major ways to lay out web pages, along with _floats_ and _CSS Grid_. With flexbox, we fill one-dimensional containers with multiple blocks that grow and shrink to fit the current page size.
+
+---
+
+![](flexbox.png)
+
+---
+
+
 # Floats
 
 * Used for layout
