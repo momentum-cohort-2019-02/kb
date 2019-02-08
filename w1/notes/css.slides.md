@@ -380,7 +380,7 @@ float: none;
 
 ## Livecode
 
-Livecode classic web design -- header, sidebar, main, footer, with floats
+Livecode classic web design -- header, sidebar, main, footer, with flexbox and floats
 
 ---
 
