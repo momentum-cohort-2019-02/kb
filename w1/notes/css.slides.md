@@ -342,23 +342,19 @@ Flexbox is one of three major ways to lay out web pages, along with _floats_ and
 
 ---
 
-![](flexbox.png)
+```css
+.container {
+  display: flex;
+}
+```
+
+By default, items fit left to right horizontally within the container. This can be adjusted to be vertical or to have a different order.
+
+![right fit](flexbox.png)
 
 ---
 
-
-# Floats
-
-* Used for layout
-* specify move to the left or move to the right
-* text wraps around floated items
-* works well for text + images
-
-```
-float: left;
-float: right;
-float: none;
-```
+To learn more about flexbox, see [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/).
 
 ---
 
@@ -368,30 +364,17 @@ Make a web page with two columns. They should be equal in width. Get text from h
 
 ---
 
-# Floats and "the grid"
+# Floats
 
-* Modern web design uses the grid heavily
-* Using floats to work with the grid requires some workarounds
-
----
-
-# Clearing floats
+* Specify move to the left or move to the right
+* Text wraps around floated items
+* Works well for text + images
 
 ```
-clear: both;
-clear: left;
-clear: right;
+float: left;
+float: right;
+float: none;
 ```
-
----
-
-# Clearing methods 
-
-* Elements made up only of floats lose their height, and collapse
-* This is a pain
-* Clearing floats can prevent this
-
-https://css-tricks.com/all-about-floats/#article-header-id-4
 
 ---
 
