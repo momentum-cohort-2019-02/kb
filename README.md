@@ -16,7 +16,7 @@ By the end of this week, students should be comfortable with:
 - Basics of design
 - Basics of accessibility
 
-## Week 2
+## [Week 2](w2/)
 
 By the end of this week, students should be comfortable with:
 
