@@ -13,12 +13,6 @@ autoscale: true
 
 ---
 
-# [fit] The shell
-
-![original](images/matrix.jpg)
-
----
-
 # The prompt
 
 The prompt is the place in the terminal where you type commands. By default, it usually shows your computer's name and your username:
@@ -189,14 +183,14 @@ $ rm -rf directory_full_of_stuff # watch out!
 Let's practice using the command line! Don't forget about using the arrow keys to find previously typed commands.
 
 1. Navigate to your home directory
-1. Create a `momentum/class` directory path
-1. Navigate to that directory
-1. Create a `command_line` directory here
-1. Navigate up two directories
-1. Explore around your directories, viewing their contents
-1. Return to your home directory
-1. Verify what your current working directory is
-1. Remove the `momentum/class/command_line` path
+2. Create a `momentum/class` directory path
+3. Navigate to that directory
+4. Create a `command_line` directory here
+5. Navigate up two directories
+6. Explore around your directories, viewing their contents
+7. Return to your home directory
+8. Verify what your current working directory is
+9. Remove the `momentum/class/command_line` path
 
 ---
 
