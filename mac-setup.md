@@ -27,8 +27,6 @@ iTerm2 is an open source replacement for Apple's Terminal. It's highly customiza
 
 You can get the app from [the iTerm2 downloads page](http://www.iterm2.com/downloads.html). Once downloaded, drag and drop the iTerm application file into your Applications folder.
 
-See [this iTerm2 setup guide](http://sourabhbajaj.com/mac-setup/iTerm/) for optional suggested settings.
-
 **NOTE:** Run iTerm now to open a terminal window. For the rest of this guide, when we ask you to run something in the terminal or "on the command line", we will be referring to typing the command into an iTerm terminal window and pressing Enter. We will often just say "run" with a command beneath, like this:
 
     $ cd ~
