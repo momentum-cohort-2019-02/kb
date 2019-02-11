@@ -24,7 +24,7 @@ _Question of the day:_ What does a developer do all day?
   - [Really Friendly Command Line Intro](https://drive.google.com/file/d/1_2LTtR6f5bFCC5wjFZc9ILA7vmru7ShK/view)
 
 - Git
-  - [Git slides](notes/git.pdf)
+  - [Git slides](notes/git.slides.md)
   - [Learn Git Branching](https://learngitbranching.js.org/)
   - [GitHub Learning Lab](https://lab.github.com/)
 
