@@ -263,7 +263,7 @@ The `mv` command is useful for renaming files and directories. The `-i` option i
 
 ```sh
 $ cat ~/.bash_profile
-$ tail -f log/development.log
+$ tail log/development.log
 $ head addresses.csv
 ```
 
@@ -284,7 +284,7 @@ $ open -a "Visual Studio Code" index.html
 
 Sometimes the screen can feel cluttered. To clear your terminal screen you can:
 
-- Type clear at the prompt
+- Type `clear` at the prompt
 - **Cmd-K** on OS X
 
 This doesn't clear your command history; it just makes your screen look neater!
