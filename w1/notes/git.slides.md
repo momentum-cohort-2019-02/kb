@@ -23,7 +23,8 @@ Resume­September2017.docx
 Resume­for­Duke­job.docx
 ResumeOLD.docx
 ResumeNEW.docx
-ResumeREALLYREALLYNEW.docx
+ResumeFINAL.docx
+ResumeREALLYFINAL.docx
 ```
 
 **You invented your own version control!**
