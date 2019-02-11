@@ -54,7 +54,7 @@ We have two repositories we care about: one on our computer and one on GitHub.
 # Vocab
 
 * **Repository**: A collection of files and their changes
-* **Working directory**: A directory on your computer that contains a repository
+* **Working directory**: A directory on your computer that contains a repository, will contain a directory named `.git/`
 * **Staging area**: A Git-specific concept -- a way for it to set up which changes will be committed
 * **Commit**: One set of changes
 
