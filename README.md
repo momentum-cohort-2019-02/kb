@@ -5,7 +5,7 @@
 - [Master list of links from class](links.md)
 - [Daily schedule and groups](schedule-and-groups.md)
 
-## Week 1
+## [Week 1](w1/)
 
 By the end of this week, students should be comfortable with:
 
