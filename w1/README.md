@@ -51,6 +51,11 @@ _Question of the day:_ How would you present a recipe on a web page?
 - Read [CSS Basics](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics)
 - Read [How to Learn CSS](https://www.smashingmagazine.com/2019/01/how-to-learn-css/)
 
+### Lecture videos
+
+- [Morning](https://drive.google.com/file/d/1IlASEzWgf-qD97CisNv8k4m5ODhQ-rHf/view)
+- [Afternoon](https://drive.google.com/file/d/1QZtv3h2ff6IYM6IUUXFzNR64K6mEvDE_/view)
+
 ## Day 3
 
 _Question of the day:_ How do you take an image and turn it into a web page?
