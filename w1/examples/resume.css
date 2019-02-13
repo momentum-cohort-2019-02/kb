@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  padding: 1rem 2rem;
+}
+
+.resume-section {
+  margin: 2rem 0;
+}
+
+.resume-section h2 {
+  margin-bottom: 1rem;
+}
+
+.resume-section address {
+  font-style: normal;
+}
+
+.resume-section dd {
+  margin-left: 2rem;
+}
+
+.skill-list {
+  list-style-type: none;
+}
+
+.rating {
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.skill {
+  list-style-type: disc;
+  margin-left: 2rem;
+  font-weight: normal;
+}
+
+.featured {
+  color: purple;
+}
+
+.skill.featured {
+  font-family: fantasy;
+}
+
+.contact-info {}
+
+.skills {}
+
+.jobs {}

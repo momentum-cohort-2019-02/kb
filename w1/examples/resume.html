@@ -2,6 +2,7 @@
 <html>
 
 <head>
+  <link rel="stylesheet" href="resume.css">  
   <title>Andy Cho</title>
 </head>
 
@@ -9,8 +10,8 @@
   <header>
     <h1>Andy Cho</h1>
   </header>
-  <section>
-    <h3>Contact Info</h3>
+  <section class="contact-info resume-section">
+    <h2>Contact Info</h2>
     
     <!-- address is the proper tag to use for any contact info -->
     <address>
@@ -26,36 +27,36 @@
       </dl>
     </address>
   </section>
-  <section>
-    <h3>Skills</h3>
-    <ul>
-      <li>
+  <section class="skills resume-section">
+    <h2>Skills</h2>
+    <ul class="skill-list">
+      <li class="rating">
         Expert
         <ul>
-          <li>Python</li>
-          <li>SQL</li>
+          <li class="skill featured">Python</li>
+          <li class="skill">SQL</li>
         </ul>
       </li>
-      <li>
+      <li class="rating">
         Proficient
         <ul>
-          <li>C#</li>
-          <li>HTML</li>
-          <li>CSS</li>
+          <li class="skill">C#</li>
+          <li class="skill featured">HTML</li>
+          <li class="skill">CSS</li>
         </ul>
       </li>
-      <li>
+      <li class="rating">
         Interested in learning
         <ul>
-          <li>JavaScript</li>
+          <li class="skill">JavaScript</li>
         </ul>
       </li>
 
     </ul>
   </section>
 
-  <section>
-    <h3>Jobs</h3>
+  <section class="jobs resume-section">
+    <h2>Jobs</h2>
 
     <ol>
       <li>
@@ -63,7 +64,7 @@
         <p>Jan 2015 - present</p>
         <p>Software developer</p>
       </li>
-      <li>
+      <li class="featured">
         <h3>Red Hat</h3>
         <p>Nov 2013 - Jan 2015</p>
         <p>Test automation expert</p>
