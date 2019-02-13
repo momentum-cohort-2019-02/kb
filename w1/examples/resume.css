@@ -25,7 +25,7 @@ body {
   margin-left: 2rem;
 }
 
-.skill-list {
+.skills ul {
   list-style-type: none;
 }
 
@@ -35,17 +35,8 @@ body {
 }
 
 .skill {
-  list-style-type: disc;
-  margin-left: 2rem;
+  margin-right: 2rem;
   font-weight: normal;
-}
-
-.featured {
-  color: purple;
-}
-
-.skill.featured {
-  font-family: fantasy;
 }
 
 .contact-info {}
@@ -53,3 +44,31 @@ body {
 .skills {}
 
 .jobs {}
+
+.job-list {
+  list-style-type: none;
+}
+
+.job {
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.job .company {
+  width: 100px;
+}
+
+.job .dates {
+  width: 150px;
+}
+
+.job .position {
+  width: 100px;
+}
+
+.skill-list {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,25 @@
+.header {
+  background-color: yellow;
+  height: 5rem;
+}
+
+.sidebar {
+  background-color: blue;
+  width: 25%;
+}
+
+.content {
+  background-color: red;
+  width: 75%;
+}
+
+.footer {
+  background-color: rebeccapurple;
+  height: 5rem;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  height: 10rem;
+}

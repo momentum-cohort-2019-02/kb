@@ -84,3 +84,11 @@ Place elements where users expect them.
 7. Steal like an artist 
 
 [^2]: https://medium.com/@erikdkennedy/7-rules-for-creating-gorgeous-ui-part-1-559d4e805cda
+
+---
+
+# Another perspective
+
+[Brutalist Web Design](https://brutalist-web.design/)
+
+![right fit](img/brutalist.png)
