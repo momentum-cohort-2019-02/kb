@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    body {
+      font-family: sans-serif;
+    }
+
+    .people {
+      display: flex;
+    }
+
+    .person {
+      flex: 1 1 auto;
+      font-size: 2rem;
+      font-weight: bold;
+      height: 200px;
+      text-align: center;
+      border: 1px solid black;
+      line-height: 200px;
+      color: white;
+    }
+
+    .dash {
+      background:
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url(dashiell.jpg) top center/cover;
+    }
+
+    .thorin {
+      background: 
+      linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url(thorin.png) center/cover;
+    }
+  </style>
+</head>
+<body>
+  <div class="people">
+    <div class="person dash">
+      Dash
+    </div>
+    <div class="person thorin">
+      Thorin
+    </div>
+  </div>
+</body>
+</html>
