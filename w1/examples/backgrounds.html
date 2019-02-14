@@ -20,7 +20,6 @@
       font-weight: bold;
       height: 200px;
       text-align: center;
-      border: 1px solid black;
       line-height: 200px;
       color: white;
     }
@@ -31,20 +30,44 @@
         url(dashiell.jpg) top center/cover;
     }
 
+    .dash:hover {
+      background: 
+      linear-gradient(rgba(100, 100, 100, 0.5), rgba(100, 100, 100, 0.5)),
+        url(dashiell.jpg) top center/cover;
+    }
+
     .thorin {
       background: 
       linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
         url(thorin.png) center/cover;
+    }
+
+    .thorin:hover {
+      background: 
+      linear-gradient(rgba(50, 50, 50, 0.5), rgba(50, 50, 50, 0.5)),
+        url(thorin.png) center/cover;
+    }
+
+    .person a {
+      color: white;
+      text-decoration: none;
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
+
+    .person a:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
 <body>
   <div class="people">
     <div class="person dash">
-      Dash
+      <a href="http://dash.com">Dash</a>
     </div>
     <div class="person thorin">
-      Thorin
+      <a href="http://thorin.com">Thorin</a>
     </div>
   </div>
 </body>
