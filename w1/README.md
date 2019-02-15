@@ -100,7 +100,7 @@ _Question of the day:_ What's your favorite web site design?
 ### Lecture videos
 
 - [Morning](https://drive.google.com/file/d/1SQGg0JcnQyb3z-0Eu1PSIqgtwdbRstdj/view)
-- [Afternoon](https://drive.google.com/file/d/1SQGg0JcnQyb3z-0Eu1PSIqgtwdbRstdj/view)
+- [Afternoon](https://drive.google.com/file/d/1EuXr0VsnDeAN62h7SBIwBOdQko02tjg8/view)
 
 
 ## Recommended blogs and podcasts
