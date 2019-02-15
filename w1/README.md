@@ -109,6 +109,7 @@ _Question of the day:_ What's your favorite web site design?
 
 - [Code Newbie](https://www.codenewbie.org/) (development)
 - [A List Apart](https://alistapart.com/) (web development)
+- [CSS Tricks](https://css-tricks.com/) (web development)
 - [Erik Kennedy](https://learnui.design/blog/) (design)
 - [Brad Frost](http://bradfrost.com/) (design)
 - [Kim Goulbourne](http://www.madebybourn.com/) (design, creating stuff)
