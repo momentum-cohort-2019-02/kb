@@ -51,24 +51,41 @@ body {
 
 .job {
   margin-bottom: 2rem;
-  display: flex;
-  justify-content: space-between;
 }
 
-.job .company {
-  width: 100px;
-}
-
-.job .dates {
-  width: 150px;
-}
-
-.job .position {
-  width: 100px;
+.description {
+  margin-top: 1rem;
 }
 
 .skill-list {
   list-style-type: none;
   display: flex;
   flex-wrap: wrap;
+}
+
+@media screen and (min-width: 768px) {
+  .job {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .job .company {
+    width: 30%;
+  }
+
+  .job .dates {
+    width: 40%;
+  }
+
+  .job .position {
+    width: 30%;
+  }
+
+  .job .description {
+    width: 100%;
+  }
+
+
+
 }

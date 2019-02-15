@@ -28,10 +28,10 @@ autoscale: true
 
 # Making a flexible grid
 
-* Use percentages
+* Use percentages for elements inside your container
 * Include margins
 * Grids don't have to be a certain number of columns or even columns of equal size
-* For your grid container, consider % for width and px for max-width
+* For your grid container, consider px/rem for width and % for max-width
 
 ---
 
@@ -48,7 +48,7 @@ img {
 # An incantation required
 
 ```html
-<meta name="viewport" content="initial-scale=1.0,width=device-width" />
+<meta name="viewport" content="initial-scale=1.0,width=device-width">
 ```
 
 ^ width=device-width is important to make the rendering width the actual width of the device. Without this, the phone browser might render with a 960px width and scale it down to 320px.
