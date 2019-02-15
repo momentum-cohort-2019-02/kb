@@ -101,3 +101,22 @@ _Question of the day:_ What's your favorite web site design?
 
 - [Morning](https://drive.google.com/file/d/1SQGg0JcnQyb3z-0Eu1PSIqgtwdbRstdj/view)
 - [Afternoon](https://drive.google.com/file/d/1SQGg0JcnQyb3z-0Eu1PSIqgtwdbRstdj/view)
+
+
+## Recommended blogs and podcasts
+
+### Blogs
+
+- [Code Newbie](https://www.codenewbie.org/) (development)
+- [A List Apart](https://alistapart.com/) (web development)
+- [Erik Kennedy](https://learnui.design/blog/) (design)
+- [Brad Frost](http://bradfrost.com/) (design)
+- [Kim Goulbourne](http://www.madebybourn.com/) (design, creating stuff)
+- [UX Notebook](https://www.theuxnotebook.com/) (UX newsletter)
+- [Equal Entry](https://equalentry.com/blog/) (design, development)
+- [Julia Evans](https://jvns.ca/) (development, pretty advanced but great)
+
+### Podcasts
+
+- [Hanselminutes](https://www.hanselminutes.com/)
+- [Code Newbie](https://www.codenewbie.org/podcast) (development)
