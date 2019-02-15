@@ -75,6 +75,11 @@ _Question of the day:_ How do you take an image and turn it into a web page?
 - [Dog adoption site](https://classroom.github.com/a/b9qlA3Gz)
 - Read [7 Rules for Creating Gorgeous UI, Part 1](https://medium.com/@erikdkennedy/7-rules-for-creating-gorgeous-ui-part-1-559d4e805cda) and [Part 2](https://medium.com/@erikdkennedy/7-rules-for-creating-gorgeous-ui-part-2-430de537ba96)
 
+### Lecture videos
+
+- [Morning](https://drive.google.com/file/d/1YhNRVAjC4Qkdnp0NH10ArKnx5U9k1d9s/view)
+- [Afternoon](https://drive.google.com/file/d/1usMtdAsP7jW0_4t09enwxLmvTH3AbY4o/view)
+
 ## Day 4
 
 _Question of the day:_ What's your favorite web site design?
@@ -91,3 +96,8 @@ _Question of the day:_ What's your favorite web site design?
 ### Assignment
 
 [Portfolio](https://classroom.github.com/a/SAUpVuJC)
+
+### Lecture videos
+
+- [Morning](https://drive.google.com/file/d/1SQGg0JcnQyb3z-0Eu1PSIqgtwdbRstdj/view)
+- [Afternoon](https://drive.google.com/file/d/1SQGg0JcnQyb3z-0Eu1PSIqgtwdbRstdj/view)
