@@ -46,3 +46,27 @@ Write a function to get the nth Fibonacci number.
 
 - [Functions in _A Byte of Python_](https://python.swaroopch.com/functions.html) - will help with understanding the basics of functions
 - Chapters 3, 5, and 6 of _Think Python_ - will help with how to best use functions
+
+## Day 3
+
+- Dictionaries
+- Files
+
+### Assignment
+
+Word Frequency
+
+## Day 4
+
+_Question of the day:_ How do you take a list of words and filter out all the words with more than 10 letters?
+
+- List comprehensions
+
+### Assignment
+
+[Mystery Word](https://classroom.github.com/a/WdYQZ2Fm)
+
+### References
+
+- [`random` module](https://docs.python.org/3/library/random.html)
+- [Mystery Word hints](mystery-word-hints.md)
