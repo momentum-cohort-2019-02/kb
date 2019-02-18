@@ -11,9 +11,9 @@ while more_bags:
         more_bags = False
     else:
         total_weight = total_weight + int(weight)
-        print("Current total weight is " + total_weight + ".")
+        print("Current total weight is " + str(total_weight) + ".")
 
-print("Your total weight is ", total_weight, ".")
+print("Your total weight is " + str(total_weight) + ".")
 if total_weight > max_weight:
-    print("You are " + total_weight - max_weight +
+    print("You are " + str(total_weight - max_weight) +
           " pounds over the allowed weight.")
