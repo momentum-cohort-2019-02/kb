@@ -25,6 +25,11 @@ Suppose the cover price of a book is $24.95, but bookstores get a 40% discount. 
 - [A Byte of Python](https://python.swaroopch.com/)
 - [Think Python](http://greenteapress.com/thinkpython2/html/index.html)
 
+### Videos
+
+- [Morning](https://drive.google.com/file/d/1duuM-JdibZMh7JhZs5j3Od51y3LRnWqN/view)
+- [Afternoon](https://drive.google.com/file/d/1UBZgH4FEWCz38qTzOLzEVr4oi9ZpZRlo/view)
+
 ## Day 2
 
 _Question of the day:_ How would you tell a computer to find the longest word in a sentence?
