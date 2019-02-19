@@ -52,6 +52,10 @@ Write a function to get the nth Fibonacci number.
 - [Functions in _A Byte of Python_](https://python.swaroopch.com/functions.html) - will help with understanding the basics of functions
 - Chapters 3, 5, and 6 of _Think Python_ - will help with how to best use functions
 
+### Videos
+
+- [Morning](https://drive.google.com/file/d/150UTMfNyBC9mmjKf8A8wfPEyUMbrTBiW/view)
+
 ## Day 3
 
 - Dictionaries
