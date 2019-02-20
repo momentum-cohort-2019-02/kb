@@ -1,4 +1,4 @@
-def clean_text(text):
+def remove_non_letters(text):
     """Strip out every character that is not a letter."""
     all_letters = "abcdefghijklmnopqrstuvwxyz"
     all_letters += all_letters.upper()
@@ -26,7 +26,7 @@ def longest_word(sentence, starting_letter=None):
     # Go through the list word by word
     current_longest = ""
     for word in words:
-        word = clean_text(word)
+        word = remove_non_letters(word)
         # If the current is longer than any word previously seen,
         # remember that word
         if is_valid(word) and len(word) > len(current_longest):

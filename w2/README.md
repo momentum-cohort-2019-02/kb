@@ -55,6 +55,7 @@ Write a function to get the nth Fibonacci number.
 ### Videos
 
 - [Morning](https://drive.google.com/file/d/150UTMfNyBC9mmjKf8A8wfPEyUMbrTBiW/view)
+- [Afternoon](https://drive.google.com/file/d/1Zz4j1JiMv6xpsnDjna2pufbympAjUgR1/view)
 
 ## Day 3
 
