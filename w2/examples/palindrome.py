@@ -39,17 +39,11 @@ def remove_non_letters(text):
     all_letters = "abcdefghijklmnopqrstuvwxyz"
     all_letters += all_letters.upper()
 
-    # new_text = ""
-    # for char in text:
-    #     if char in all_letters:
-    #         new_text += char
-    # return new_text
-
-    chars = []
+    new_text = ""
     for char in text:
         if char in all_letters:
-            chars.append(char)
-    return "".join(chars)
+            new_text += char
+    return new_text
 
 
 text = input("Enter a possible palindrome: ")
