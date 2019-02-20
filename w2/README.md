@@ -73,6 +73,8 @@ Write a function to get the nth Fibonacci number.
 ### Videos
 
 - [Morning](https://drive.google.com/file/d/1pWarXXbVqYxGd3MYJhNv_NlkfWuIqJXE/view)
+- [Afternoon part 1](https://drive.google.com/file/d/1FRr_LRhUeuCbtnRMMg2MrHzwDsUtL9ZA/view)
+- [Afternoon part 2](https://drive.google.com/file/d/1kA36FVmfEMWso_b_6Sm7FEUiqMCWThke/view)
 
 ## Day 4
 
