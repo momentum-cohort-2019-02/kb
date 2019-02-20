@@ -62,9 +62,17 @@ Write a function to get the nth Fibonacci number.
 - Dictionaries
 - Files
 
+### References
+
+- [Python Cheat Sheets](https://ehmatthes.github.io/pcc/cheatsheets/README.html)
+
 ### Assignment
 
 [Word Frequency](https://classroom.github.com/a/zdIbNW0H)
+
+### Videos
+
+- [Morning](https://drive.google.com/file/d/1pWarXXbVqYxGd3MYJhNv_NlkfWuIqJXE/view)
 
 ## Day 4
 
