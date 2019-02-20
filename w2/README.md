@@ -64,7 +64,7 @@ Write a function to get the nth Fibonacci number.
 
 ### Assignment
 
-Word Frequency
+[Word Frequency](https://classroom.github.com/a/zdIbNW0H)
 
 ## Day 4
 
