@@ -1,14 +1,5 @@
-def remove_non_letters(text):
-    """Strip out every character that is not a letter."""
-    all_letters = "abcdefghijklmnopqrstuvwxyz"
-    all_letters += all_letters.upper()
-
-    new_text = ""
-    for char in text:
-        if char in all_letters:
-            new_text += char
-    return new_text
-
+# import clean_text
+from clean_text import remove_non_letters
 
 def starts_with_letter(word, letter):
     return word[0].lower() == letter.lower()

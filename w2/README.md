@@ -80,6 +80,7 @@ Write a function to get the nth Fibonacci number.
 
 _Question of the day:_ How do you take a list of words and filter out all the words with more than 10 letters?
 
+- Modules
 - List comprehensions
 
 ### Assignment
