@@ -91,3 +91,8 @@ _Question of the day:_ How do you take a list of words and filter out all the wo
 
 - [`random` module](https://docs.python.org/3/library/random.html)
 - [Mystery Word hints](mystery-word-hints.md)
+
+### Videos
+
+- [Morning](https://drive.google.com/file/d/1wBotrvCzP7dbrUvlhD5nJOQYVmX4fSG7/view)
+- [Afternoon](https://drive.google.com/file/d/1sGxahGIhtFlQf3HoSKAloO-IXgO6H3jT/view)
