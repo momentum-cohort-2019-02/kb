@@ -13,12 +13,7 @@ Pig Latin
 
 ### Assignment
 
-Currency converter
-
-**ERRATA:**
-
-- `rates` is a list of tuples, not a dictionary.
-- `from` is a reserved word, so use `original` or `_from` for the parameter indicating the currency to change from.
+[Currency converter](https://classroom.github.com/a/t75xK2FX)
 
 ### References
 
@@ -38,7 +33,7 @@ Cipher
 
 ### Assignment
 
-Object-oriented money
+[Object-oriented money](https://classroom.github.com/a/JqltEwik)
 
 ## Day 3
 
@@ -50,7 +45,7 @@ _Question of the day:_ What classes would you need to make a blackjack game? How
 
 ### Assignment
 
-Pig
+[Pig](https://classroom.github.com/a/C_-VURmB)
 
 ## Day 4
 
@@ -63,7 +58,7 @@ _Question of the day:_ How would you write a program to recommend items someone 
 
 ### Assignment
 
-Pathfinder
+[Pathfinder](https://classroom.github.com/a/TAZmPpof)
 
 ### References
 
