@@ -96,3 +96,45 @@ _Question of the day:_ How do you take a list of words and filter out all the wo
 
 - [Morning](https://drive.google.com/file/d/1wBotrvCzP7dbrUvlhD5nJOQYVmX4fSG7/view)
 - [Afternoon](https://drive.google.com/file/d/1sGxahGIhtFlQf3HoSKAloO-IXgO6H3jT/view)
+
+## Review
+
+- How to run Python
+- Running Python script
+- Simple values
+  - strings
+  - booleans
+  - integers
+  - floats
+- Conditional statements (if/elif/else)
+- Logical operators
+- Scope
+- Built-in Python functions
+  - input
+  - print
+  - int
+  - float
+  - str
+  - open
+- Sequences
+  - lists
+  - dictionaries
+  - tuples
+  - ranges
+  - strings
+  - lines of a file
+- String methods
+- Functions
+  - how to make them
+  - how to call them
+- Iterative vs recursive programming
+- Loops
+  - while
+  - for/in
+- List comprehensions
+- Modules
+  - vs. libraries
+  - vs. namespaces
+  - importing them
+- Reading files
+- Axolotls
