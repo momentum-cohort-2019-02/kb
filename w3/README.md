@@ -4,6 +4,7 @@
 
 _Question of the day:_ How would you write a program to make correct change (as in a cashier giving you coins, not changing the world)?
 
+- Pipenv
 - Writing tests with pytest
 - Exceptions
 
@@ -17,9 +18,15 @@ Pig Latin
 
 ### References
 
+- [Pipenv](https://pipenv.readthedocs.io/en/latest/)
+  - [Real Python - Pipenv Guide](https://realpython.com/pipenv-guide/)
 - [pytest](https://docs.pytest.org/en/latest/)
 - [Getting started with testing in Python](https://realpython.com/python-testing/)
 - [Debugging with pdb](https://realpython.com/python-debugging-pdb/)
+
+- General Python resources
+  - [Real Python](https://realpython.com/)
+  - [The Hitchhiker's Guide to Python](https://docs.python-guide.org/)
 
 ## Day 2
 
