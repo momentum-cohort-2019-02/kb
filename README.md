@@ -28,7 +28,7 @@ By the end of this week, students should be comfortable with:
 - Input and output
 - Modules
 
-## Week 3
+## [Week 3](w3/)
 
 By the end of this week, students should be comfortable with:
 
