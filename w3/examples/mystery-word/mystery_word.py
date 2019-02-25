@@ -72,6 +72,10 @@ def filter_word_list_by_difficulty(word_list, difficulty):
     return filtered_word_list
 
 
+def game_over(word_to_guess, letters_guessed, guesses_left):
+    return word_guessed(word_to_guess, letters_guessed) or guesses_left == 0
+
+
 if __name__ == "__main__":
     difficulty = None
     while difficulty not in ['easy', 'medium', 'hard']:
@@ -83,11 +87,24 @@ if __name__ == "__main__":
     word_list = filter_word_list_by_difficulty(word_list, difficulty)
     word_to_guess = random.choice(word_list)
     letters_guessed = []
+    guesses_left = 8
 
-    while not word_guessed(word_to_guess, letters_guessed):
+    while not game_over(word_to_guess, letters_guessed, guesses_left):
         print(get_display_word(word_to_guess, letters_guessed))
         letter_guessed = get_letter_input()
-        letters_guessed.append(letter_guessed)
+        if letter_guessed in letters_guessed:
+            print("You have already guessed that letter.")
+        elif letter_guessed in word_to_guess:
+            print("You guessed a correct letter.")
+            letters_guessed.append(letter_guessed)
+        else:
+            letters_guessed.append(letter_guessed)
+            guesses_left -= 1
+            print(f"Bad choices. {guesses_left} guesses left.")
 
-    print(get_display_word(word_to_guess, letters_guessed))
-    print("You won!")
+    if word_guessed(word_to_guess, letters_guessed):
+        print(get_display_word(word_to_guess, letters_guessed))
+        print("You won!")
+    else:
+        print(f"The word was {word_to_guess.upper()}.")
+        print("You lost.")
