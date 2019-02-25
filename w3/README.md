@@ -28,6 +28,11 @@ Pig Latin
   - [Real Python](https://realpython.com/)
   - [The Hitchhiker's Guide to Python](https://docs.python-guide.org/)
 
+### Videos
+
+- [Morning](https://drive.google.com/file/d/1MDUbR_F3ZugMu0x6fgfMCJDiy3YH5lmR/view)
+- [Afternoon](https://drive.google.com/file/d/1tnvlX2Z5TvkZKY_S3GCUlNe6TLhJx8cn/view)
+
 ## Day 2
 
 _Question of the day:_ How would you write a program to find all the anagrams of a phrase?
