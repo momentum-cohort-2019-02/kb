@@ -24,17 +24,13 @@ An object combines **state**, **behavior**, and **identity**.
 
 A _class_ is a blueprint for an object.
 
-```js
-var students = new Set() // js
+```py
+students = set()
 ```
 
-```rb
-students = Set.new       # ruby
-```
+`set` is a class; `students` is an object.
 
-`Set` is a class[^1]; `students` is an object.
-
-[^1]: not really a class, but close enough; will discuss with JS people later
+Classes normally have names starting with capital letters; in Python, the built-in ones often don't.
 
 ---
 

@@ -10,7 +10,11 @@ pytest = "*"
 
 [packages]
 jupyter = "*"
+tornado = "==5.1.1"
 pyyaml = ">=4.2b1"
 
 [requires]
 python_version = "3.7"
+
+[pipenv]
+allow_prereleases = true
