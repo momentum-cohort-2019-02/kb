@@ -65,7 +65,7 @@ _Question of the day:_ What classes would you need to make a blackjack game? How
 - OO Design
   - Blackjack: This is a command-line version of the game Blackjack. There is one human player playing against the dealer. The player starts with $100 and can play until they are out of money.
   - Library: This is a command-line interface for a library. The list of books is read in from a file on disk. A user can search the books by title or author, check out a book, see their list of checked out books, and return a book.
-  - Word frequency calculator: This is similar to your previous exercise. The program can read in text from a file and prints out a chart with the top 20 words in the text with their frequency.
+  - College registration system: This is a command-line interface to register for classes. A user can see a list of all classes, search for classes, and sign up for classes. If those classes are full, they can't sign up.
   - Calendar: This is a command-line interface for a calendar. The list of events is read in from a file on disk. A user can see the list of events for any given day, add new events, and remove events. Events can be repeating. There should be a way for the user to see if there's any upcoming events in the next hour -- this might be run every hour in order to alert them.
 
 ### Assignment
