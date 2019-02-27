@@ -47,6 +47,11 @@ Cipher
 
 [Object-oriented money](https://classroom.github.com/a/JqltEwik)
 
+### Videos
+
+- [Morning](https://drive.google.com/file/d/1dEGCIHMIS_kUTLA7jh9wieZnYcpJoFjg/view)
+- [Afternoon](https://drive.google.com/file/d/1vt_9AJWgeIaLXMkl_wxQ9EMqJadNCofW/view)
+
 ## Day 3
 
 _Question of the day:_ What classes would you need to make a blackjack game? How would you calculate the score for a hand?
