@@ -60,13 +60,19 @@ _Question of the day:_ What classes would you need to make a blackjack game? How
 
 - Object-oriented design
 
+### Exercise
+
+- OO Design
+  - Blackjack: This is a command-line version of the game Blackjack. There is one human player playing against the dealer. The player starts with $100 and can play until they are out of money.
+  - Library: This is a command-line interface for a library. The list of books is read in from a file on disk. A user can search the books by title or author, check out a book, see their list of checked out books, and return a book.
+  - Word frequency calculator: This is similar to your previous exercise. The program can read in text from a file and prints out a chart with the top 20 words in the text with their frequency.
+  - Calendar: This is a command-line interface for a calendar. The list of events is read in from a file on disk. A user can see the list of events for any given day, add new events, and remove events. Events can be repeating. There should be a way for the user to see if there's any upcoming events in the next hour -- this might be run every hour in order to alert them.
+
 ### Assignment
 
 [Pig](https://classroom.github.com/a/C_-VURmB)
 
 ## Day 4
-
-_Question of the day:_ How would you write a program to recommend items someone might like to buy, given their purchase history, like on Amazon?
 
 ### Goals
 
