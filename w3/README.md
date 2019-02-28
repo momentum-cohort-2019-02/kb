@@ -72,6 +72,11 @@ _Question of the day:_ What classes would you need to make a blackjack game? How
 
 [Pig](https://classroom.github.com/a/C_-VURmB)
 
+### Videos
+
+- [Morning](https://drive.google.com/file/d/1mG9n-OEKoqaX84TrTkTcNoyr_b090JZv/view)
+- [Afternoon](https://drive.google.com/file/d/1Mtj4WkO_3wrwzvRRKwmHjraHJ9v0LPZe/view)
+
 ## Day 4
 
 ### Goals
