@@ -94,3 +94,7 @@ _Question of the day:_ What classes would you need to make a blackjack game? How
 - [Direnv](https://direnv.net/)
 - [The Hitchhiker's Guide to Python](https://docs.python-guide.org/)
 - [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/)
+
+### Videos
+
+- [Morning](https://drive.google.com/file/d/1k_zKzQnhVdP8CcRH7n7H_eVTqpuz1tJP/view)
