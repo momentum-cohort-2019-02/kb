@@ -11,16 +11,33 @@ def pluralize(number, singular, plural=None):
     return f"{number} {plural}"
 
 
-class ComputerPlayer:
+class Player:
+
+    def __init__(self, name):
+        self.name = name
+
+    def report_pick_up(self, num_sticks):
+        pass
+
+    def report_win(self, won):
+        pass
+
+    def __str__(self):
+        return self.name
+
+
+class ComputerPlayer(Player):
     """
     A player for the game of sticks. Chooses number of sticks to pick up randomly.
     """
 
-    def __init__(self):
+    def __init__(self, name):
         """
         Our player will track its winning moves by adding winning moves to virtual "buckets"
         and removing losing moves from those buckets.
         """
+        super().__init__(name)
+
         self.possible_choices = {}
         for num in range(5, 21):
             self.possible_choices[num] = [1, 2, 3]
@@ -42,9 +59,6 @@ class ComputerPlayer:
         self.current_choices[current_sticks] = choice
         return choice
 
-    def report_pick_up(self, num_sticks):
-        pass
-
     def report_win(self, won):
         """
         When we win, we want to add back the current choices to the possible choice buckets.
@@ -63,7 +77,7 @@ class ComputerPlayer:
         # print(self.possible_choices)
 
 
-class HumanPlayer:
+class HumanPlayer(Player):
     """
     A human player for the game of sticks.
     """
@@ -89,9 +103,6 @@ class HumanPlayer:
 
     def report_pick_up(self, num_sticks):
         print(f"The other player picked up {pluralize(num_sticks, 'stick')}.")
-
-    def report_win(self, won):
-        pass
 
 
 class Game:
@@ -127,11 +138,11 @@ class Game:
             self.sticks -= p2_sticks
 
         if self.current_player == 2:
-            print("Player 1 wins!")
+            print(f"{self.player1} wins!")
             self.player1.report_win(True)
             self.player2.report_win(False)
         else:
-            print("Player 2 wins!")
+            print(f"{self.player2} wins!")
             self.player1.report_win(False)
             self.player2.report_win(True)
 
@@ -143,8 +154,8 @@ class Game:
 
 
 if __name__ == "__main__":
-    p1 = ComputerPlayer()
-    p2 = HumanPlayer()
+    p1 = ComputerPlayer(name="Player 1")
+    p2 = HumanPlayer(name="Player 2")
 
     game = Game(p1, p2)
-    game.play_game()
+    game.start_game()
