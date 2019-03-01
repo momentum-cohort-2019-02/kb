@@ -20,7 +20,7 @@ M - Group A, Tu - Group B, W - Group C, Th - Group D
 
 # Student groups
 
-# Group A
+## Group A
 
 - Abby Demarest
 - Daniel Miller
@@ -30,7 +30,7 @@ M - Group A, Tu - Group B, W - Group C, Th - Group D
 - Rob Taylor
 - Ryan Catrine
 
-# Group B
+## Group B
 
 - Anna Smith
 - Bailey Costin
@@ -39,7 +39,7 @@ M - Group A, Tu - Group B, W - Group C, Th - Group D
 - Taylor Cooke
 - Yifaa Yapuncich
 
-# Group C
+## Group C
 
 - Aaron Sellek
 - Brian Gribbon
@@ -48,7 +48,7 @@ M - Group A, Tu - Group B, W - Group C, Th - Group D
 - Kristin Clements
 - Lin Navarro
 
-# Group D
+## Group D
 
 - AJ Bryce
 - Chinh Le
@@ -56,3 +56,43 @@ M - Group A, Tu - Group B, W - Group C, Th - Group D
 - John Mowrey
 - Kasey Tiller
 - Michael Taylor
+
+---
+
+# Second round of groups
+
+## Group E
+
+- Bailey Costin
+- Chinh Le
+- David Kirk
+- Kristin Clements
+- Lin Navarro
+- Taylor Cooke
+
+## Group F
+
+- Abby Demarest
+- AJ Bryce
+- Brian Gribbon
+- Craig Brunengraber
+- Daniel Peterson
+- Kasey Tiller
+
+## Group G
+
+- Aaron Sellek
+- Anna Smith
+- Daniel Miller
+- Dennis Dinwiddie
+- Michael Taylor
+- Yifaa Yapuncich
+
+## Group H
+
+- Christian Medlin
+- John Mowrey
+- Josh Torain
+- Juan Polanco
+- Rob Taylor
+- Ryan Catrine
