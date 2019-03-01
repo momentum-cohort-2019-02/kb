@@ -76,10 +76,10 @@ M - Group A, Tu - Group B, W - Group C, Th - Group D
 - AJ Bryce
 - Brian Gribbon
 - Craig Brunengraber
-- Daniel Peterson
+- Daniel Peterson  
 - Kasey Tiller
 
-## Group G
+## Group G 
 
 - Aaron Sellek
 - Anna Smith
@@ -96,3 +96,4 @@ M - Group A, Tu - Group B, W - Group C, Th - Group D
 - Juan Polanco
 - Rob Taylor
 - Ryan Catrine
+
