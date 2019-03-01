@@ -98,3 +98,4 @@ _Question of the day:_ What classes would you need to make a blackjack game? How
 ### Videos
 
 - [Morning](https://drive.google.com/file/d/1k_zKzQnhVdP8CcRH7n7H_eVTqpuz1tJP/view)
+- [Afternoon](https://drive.google.com/file/d/1oyXP19OXhouB1K-48VTEV56VMAy7SuFp/view)
