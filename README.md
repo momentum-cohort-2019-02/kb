@@ -39,7 +39,7 @@ By the end of this week, students should be comfortable with:
 - Program design
 - Reading and parsing data
 
-## Week 4
+## [Week 4](w4/)
 
 By the end of this week, students should be comfortable with:
 
