@@ -17,6 +17,7 @@ M - Group A, Tu - Group B, W - Group C, Th - Group D
 * Week 4: M - E, Tu - F, W - G, Th - H
 * Week 5: M - F, Tu - G, W - H, Th - E
 * Week 6: M - G, Tu - H, W - E, Th - F
+
 **3:00-3:15 PM** one random student shows their work so far
 
 **3:15-4:30 PM** review lecture
