@@ -16,6 +16,7 @@
 ### References
 
 - [Django](https://djangoproject.com/)
+- [Gitignore.io](https://gitignore.io)
 
 ## Day 2
 
