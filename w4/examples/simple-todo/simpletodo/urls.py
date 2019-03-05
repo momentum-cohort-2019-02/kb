@@ -19,5 +19,6 @@ from core import views as core_views
 
 urlpatterns = [
     path('', core_views.index_view),
+    path('todolist/<int:todolist_pk>/', core_views.todolist_view, name="todolist"),
     path('admin/', admin.site.urls),
 ]
