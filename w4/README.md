@@ -17,12 +17,21 @@
 
 - [Django](https://djangoproject.com/)
 - [Gitignore.io](https://gitignore.io)
+- [How the Web works](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works)
+
+### Video
+
+- [Afternoon](https://drive.google.com/file/d/1CgZMnmuKB45QqEKQeVPssoVr9aa_Fp7i/view)
 
 ## Day 2
 
 ### Assignment
 
 - Read and follow along with the [MDN Django Tutorial](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django), chapters 5 and 6
+
+### References
+
+- [The model layer](https://docs.djangoproject.com/en/2.1/#the-model-layer)
 
 ## Day 3
 
