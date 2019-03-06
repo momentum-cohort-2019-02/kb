@@ -33,10 +33,17 @@
 
 - [The model layer](https://docs.djangoproject.com/en/2.1/#the-model-layer)
 
+### Videos
+
+- [Morning 1](https://drive.google.com/file/d/1SeyM3AfQvANJ9TucXY7OmSL10VixxdY9/view)
+- [Morning 2](https://drive.google.com/file/d/1Ay8PTqkpC9HN0f_iAg9SqCs0Zt6mBtlL/view) (starts at 10:30)
+- [Afternoon](https://drive.google.com/file/d/1ANAmmWad5jBE7ZniO86Zhgd5xlReN068/view)
+
 ## Day 3
 
 ### Assignment
 
+- Watch [Your Brain's API](https://www.youtube.com/watch?v=hY14Er6JX2s)
 - Read and follow along with the [MDN Django Tutorial](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django), chapters 7-9
 
 ## Day 4
