@@ -1,4 +1,4 @@
-"""simpletodo URL Configuration
+"""shelter URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/2.1/topics/http/urls/
@@ -14,11 +14,13 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path, include
+from django.urls import path
+from django.conf.urls.static import static
+from django.conf import settings
 from core import views as core_views
 
 urlpatterns = [
-    path('', core_views.index_view),
-    path('todo/', include('core.urls')),
     path('admin/', admin.site.urls),
-]
+    path('', core_views.index_view, name="index"),
+] + static(
+    settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
