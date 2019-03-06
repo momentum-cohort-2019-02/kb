@@ -46,6 +46,10 @@
 - Watch [Your Brain's API](https://www.youtube.com/watch?v=hY14Er6JX2s)
 - Read and follow along with the [MDN Django Tutorial](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django), chapters 7-9
 
+### Videos
+
+- [Morning](https://drive.google.com/file/d/1aymlc1erF_iXRPBFD7Pw6emWpm38IcNc/view)
+
 ## Day 4
 
 ### Assignment
