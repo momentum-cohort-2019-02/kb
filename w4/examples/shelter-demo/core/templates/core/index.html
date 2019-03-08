@@ -1,3 +1,4 @@
+{% load staticfiles %}
 
 <!DOCTYPE html>
 <html>
@@ -6,7 +7,7 @@
     <title>Happy Valley Shelter - Adopt a Dog</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Oswald:400,700" rel="stylesheet">
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="{% static 'css/shelter.css' %}">
   </head>
   <body>
     <header class="site-header">
@@ -26,36 +27,24 @@
       </p>
       <section class="search">
         <h3 class="search__title">Show me dogs that are...</h3>
-        <form class="search__form">
-          <div class="search__choice">
-            <h4>Gender</h4>
-            <label><input type="radio" name="gender_choice" value="male">Male</label>
-            <label><input type="radio" name="gender_choice" value="female">Female</label>
-            <label><input type="radio" name="gender_choice" value="all" checked="checked">All</label>
+        <form class="search__form" method="POST">
+          {% csrf_token %}
+          <div class="form_container">
+            <div class="search__choice">
+              {{ form.age.errors }}
+              <h4>{{ form.age.label }}</h4>
+              {{ form.age }}
+            </div>
+            <div class="search__choice">
+              <h4>{{ form.size.label }}</h4>
+              {{ form.size }}
+            </div>
+            <div class="search__choice">
+              <h4>{{ form.energy_level.label }}</h4>
+              {{ form.energy_level }}
+            </div>
           </div>
-          <div class="search__choice">
-            <h4>Age</h4>
-            <label><input type="radio" name="age_choice" value="puppy">Puppy</label>
-            <label><input type="radio" name="age_choice" value="young">Young</label>
-            <label><input type="radio" name="age_choice" value="adult">Adult</label>
-            <label><input type="radio" name="age_choice" value="senior">Senior</label>
-            <label><input type="radio" name="age_choice" value="all" checked="checked">All</label>
-          </div>
-          <div class="search__choice">
-            <h4>Size</h4>
-            <label><input type="checkbox" name="size_choice" value="tiny">Tiny</label>
-            <label><input type="checkbox" name="size_choice" value="small">Small</label>
-            <label><input type="checkbox" name="size_choice" value="medium">Medium</label>
-            <label><input type="checkbox" name="size_choice" value="large">Large</label>
-          </div>
-          <div class="search__choice">
-            <h4>Personality Traits</h4>
-            <label><input type="checkbox" name="personality_choice" value="easygoing">Easygoing</label>
-            <label><input type="checkbox" name="personality_choice" value="energetic">Energetic</label>
-            <label><input type="checkbox" name="personality_choice" value="kids">Good with kids</label>
-            <label><input type="checkbox" name="personality_choice" value="dogs">Good with other dogs</label>
-            <label><input type="checkbox" name="personality_choice" value="cats">Good with cats</label>
-          </div>
+          <button type="submit">Search for dogs</button>
         </form>
       </section>
       <section>
@@ -65,15 +54,13 @@
             <img src="{{ dog.picture.url }}" alt="{{ dog.name }}">
             <div class="animal__name">{{ dog.name }}</div>
             <div class="animal__traits">
-              <span class="animal__trait">{{ dog.get_age_display }}</span>
-              <!-- <span class="animal__trait">Male</span> -->
-              <span class="animal__trait">{{ dog.get_size_display }}</span>
-              <!-- <span class="animal__trait">Easygoing</span>
-              <span class="animal__trait">Good with cats</span> -->
+              {% for trait in dog.get_traits %}
+                <span class="animal__trait">{{ trait }}</span>
+              {% endfor %}
             </div>
           </div>
           {% endfor %}
-        </div>          
+        </div>
       </section>
     </div>
     <footer class="footer">

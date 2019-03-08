@@ -1,9 +1,13 @@
 from django.shortcuts import render
 from core.models import Dog
-
-# Create your views here.
+from core.forms import DogSearchForm
 
 
 def index_view(request):
-    dogs = Dog.objects.all()
-    return render(request, "core/index.html", {"dogs": dogs})
+    form = DogSearchForm(request.GET)
+    dogs = form.search()
+
+    return render(request, "core/index.html", {
+        "dogs": dogs,
+        "form": form,
+    })
