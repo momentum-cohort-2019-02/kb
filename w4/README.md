@@ -55,3 +55,9 @@
 ### Assignment
 
 - Create the [MDN assessment: DIY Django mini-blog](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/django_assessment_blog)
+
+### Videos
+
+- [Morning 1](https://drive.google.com/file/d/1l7IHSOSm-a70zIJ26Fis-bhrN7SSbMVv/view)
+- [Morning 2](https://drive.google.com/file/d/1ILNONIDScNAycGgHJXIz9RITfmWkqMoT/view)
+- [Afternoon](https://drive.google.com/file/d/1waADWiQUmxZjLjme_pa9CnGF8_VdH2oG/view)
