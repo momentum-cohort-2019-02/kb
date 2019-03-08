@@ -6,6 +6,7 @@ verify_ssl = true
 [dev-packages]
 prospector = "*"
 yapf = "*"
+pytest = "*"
 
 [packages]
 django = "*"
