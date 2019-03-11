@@ -1,78 +1,70 @@
+{% extends "base.html" %}
 {% load staticfiles %}
 
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <title>Happy Valley Shelter - Adopt a Dog</title>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Oswald:400,700" rel="stylesheet">
-
-    <link rel="stylesheet" href="{% static 'css/shelter.css' %}">
-  </head>
-  <body>
-    <header class="site-header">
-      <h1 class="site-logo">Happy Valley Shelter</h1>
-      <nav class="main-menu">
-        <ul class="main-menu__list">
-          <li class="main-menu__list-item"><a class="nav-link" href="#">About</a></li>
-          <li class="main-menu__list-item"><a class="nav-link" href="#">Contact Us</a></li>
-        </ul>
-      </nav>
-    </header>
-    <div class="container">
-      <h2>Adopt a Dog</h2>
-      <p>
-        If you are interested in adopting one of our animals, please fill out our
-        <a href="adoption.html">online adoption form</a>.
-      </p>
-      <section class="search">
-        <h3 class="search__title">Show me dogs that are...</h3>
-        <form class="search__form" method="POST">
-          {% csrf_token %}
-          <div class="form_container">
-            <div class="search__choice">
-              {{ form.age.errors }}
-              <h4>{{ form.age.label }}</h4>
-              {{ form.age }}
-            </div>
-            <div class="search__choice">
-              <h4>{{ form.size.label }}</h4>
-              {{ form.size }}
-            </div>
-            <div class="search__choice">
-              <h4>{{ form.energy_level.label }}</h4>
-              {{ form.energy_level }}
-            </div>
-          </div>
-          <button type="submit">Search for dogs</button>
-        </form>
-      </section>
-      <section>
-        <div class="row">
-          {% for dog in dogs %}
-          <div class="animal">
-            <img src="{{ dog.picture.url }}" alt="{{ dog.name }}">
-            <div class="animal__name">{{ dog.name }}</div>
-            <div class="animal__traits">
-              {% for trait in dog.get_traits %}
-                <span class="animal__trait">{{ trait }}</span>
-              {% endfor %}
-            </div>
-          </div>
+{% block content %}
+<h2>Adopt a Dog</h2>
+<section class="search pa3 bg-light-gray">
+  <h3 class="search__title mb0">Show me dogs that are...</h3>
+  <form method="GET" action="{% url 'index' %}">
+    <div class="flex mb3">
+      <div class="mr5">
+        <h4><label for="{{ search_form.age.id_for_label }}">Age</label></h4>
+        {% for radio in search_form.age %}
+        <div>
+          {{ radio }}
+        </div>
+        {% endfor %}
+      </div>
+      <div class="mr5">
+        <h4><label for="{{ search_form.size.id_for_label }}">Size</label></h4>
+        {% for checkbox in search_form.size %}
+        <div>
+          {{ checkbox }}
+        </div>
+        {% endfor %}
+      </div>
+      <div class="mr5">
+        <h4>Qualities</h4>
+        <div>          
+          {{ search_form.good_with_kids }}
+          {{ search_form.good_with_kids.label_tag }}
+        </div>
+        <div>          
+          {{ search_form.good_with_dogs }}
+          {{ search_form.good_with_dogs.label_tag }}
+        </div>
+        <div>          
+          {{ search_form.good_with_cats }}
+          {{ search_form.good_with_cats.label_tag }}
+        </div>
+      </div>
+    </div>
+    <button type="submit">Search</button>
+    <a href="{% url "index" %}">Reset search</a>
+  </form>
+</section>
+<section>
+  <div class="flex flex-wrap justify-between">      
+    {% for dog in dogs %}
+      <div class="w-30-l w-40-m w-100 mr3 mt3 mb3">
+        {% if dog.picture %}        
+          <a href="{% url 'dog_detail' dog_pk=dog.pk %}"><img src="{{ dog.picture.url }}" alt="{{ dog.name }}, {{ dog.description }}"></a>
+        {% endif %}
+        <div class="fw6 tracked-tight f4">          
+            <a href="{% url 'dog_detail' dog_pk=dog.pk %}">{{ dog.name }}</a>
+        </div>
+        <div>
+          {% for trait in dog.get_traits %}
+          <span class="br-pill pv1 ph2 dib mv1 bg-lightest-blue">{{ trait }}</span>
           {% endfor %}
         </div>
-      </section>
-    </div>
-    <footer class="footer">
-      <div class="footer__block footer__block--donate">
-        <a href="#">Donate</a>
       </div>
-      <div class="footer__block footer__block--volunteer">
-        <a href="#">Volunteer</a>
-      </div>
-      <div class="footer__block footer__block--location">
-        <a href="#">Our location</a>
-      </div>
-    </footer>
-  </body>
-</html>
+    {% empty %}
+      <p>
+        No dogs matched your search.
+        Would you like to <a href="{% url "index" %}">see all dogs</a>?
+      </p>
+    {% endfor %}
+  </div>
+</section>
+{% endblock %}

@@ -66,3 +66,13 @@ class Dog(models.Model):
 
     def __str__(self):
         return self.name
+
+
+class AdoptionApplication(models.Model):
+    dog = models.ForeignKey(
+        Dog, related_name='applications', on_delete=models.PROTECT)
+    applicant_name = models.CharField(max_length=255)
+    phone_number = models.CharField(max_length=20)
+    current_pets = models.PositiveIntegerField("Number of current pets")
+    fenced_backyard = models.BooleanField("Do you have a fenced backyard?")
+    applied_at = models.DateTimeField(auto_now_add=True)

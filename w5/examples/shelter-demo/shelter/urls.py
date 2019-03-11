@@ -22,5 +22,6 @@ from core import views as core_views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', core_views.index_view, name="index"),
+    path('dogs/<int:dog_pk>/', core_views.dog_detail_view, name="dog_detail"),
 ] + static(
     settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

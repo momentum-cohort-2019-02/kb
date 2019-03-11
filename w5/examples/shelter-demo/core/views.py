@@ -1,13 +1,26 @@
-from django.shortcuts import render
+from django.shortcuts import render, get_object_or_404
 from core.models import Dog
-from core.forms import DogSearchForm
+from core.forms import SearchForm
+
+# Create your views here.
 
 
 def index_view(request):
-    form = DogSearchForm(request.GET)
-    dogs = form.search()
+    if request.GET:
+        form = SearchForm(request.GET)
+        dogs = form.search()
+    else:
+        form = SearchForm()
+        dogs = Dog.objects.all()
 
-    return render(request, "core/index.html", {
+    response = render(request, 'core/index.html', {
         "dogs": dogs,
-        "form": form,
+        "search_form": form,
     })
+    return response
+
+
+def dog_detail_view(request, dog_pk):
+    # dog = Dog.objects.get(pk=dog_pk)
+    dog = get_object_or_404(Dog, pk=dog_pk)
+    return render(request, "core/dog_detail.html", {"dog": dog})
