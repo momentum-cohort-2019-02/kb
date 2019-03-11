@@ -6,4 +6,15 @@
 <div class="mw6">
   <img src="{{ dog.picture.url }}" alt="{{ dog.name }}, {{ dog.description }}">
 </div>
+
+<div class="mb5">
+  <h2>Apply to adopt {{ dog.name }}</h2>
+  <form method="POST" action="{% url 'dog_detail' dog_pk=dog.pk %}">
+    {% csrf_token %}
+    {{ application_form.as_p }}
+    <p>
+      <button type="submit">Submit application</button>
+    </p>
+  </form>
+</div>
 {% endblock %}

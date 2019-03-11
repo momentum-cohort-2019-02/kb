@@ -1,10 +1,10 @@
 name,description,size,age,good_with_dogs,good_with_kids,good_with_cats,image
-Beans,a black-and-white shaggy dog,3,adult,1,1,1,beans.jpg
-Elsa,a frosty dog,2,adult,0,0,1,elsa.jpg
-Zelda,a Boston terrier,1,senior,1,1,0,zelda.jpg
-Shackleton,a shaggy white dog,3,adult,1,1,0,old-shaggy.jpg
-Baby,a brown boxer,4,young,1,1,0,boxer.jpg
-Tom-Tom,a golden lab,4,young,1,1,1,golden-lab.jpg
-Marco,a little fuzzy dog,2,adult,0,0,0,little-dog.jpg
-Midge,a Shih-Tzu,2,adult,0,1,0,shih-tzu.jpg
-Mina,a young brown-and-white dog,3,puppy,1,1,1,young-peppy.jpg
+Beans,a black-and-white shaggy dog,M,AD,1,1,1,beans.jpg
+Elsa,a frosty dog,S,AD,0,0,1,elsa.jpg
+Zelda,a Boston terrier,XS,SR,1,1,0,zelda.jpg
+Shackleton,a shaggy white dog,M,AD,1,1,0,old-shaggy.jpg
+Baby,a brown boxer,L,YG,1,1,0,boxer.jpg
+Tom-Tom,a golden lab,L,YG,1,1,1,golden-lab.jpg
+Marco,a little fuzzy dog,S,AD,0,0,0,little-dog.jpg
+Midge,a Shih-Tzu,S,AD,0,1,0,shih-tzu.jpg
+Mina,a young brown-and-white dog,M,PU,1,1,1,young-peppy.jpg

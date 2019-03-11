@@ -1,5 +1,5 @@
 from django import forms
-from core.models import Dog
+from core.models import Dog, AdoptionApplication
 
 
 class SearchForm(forms.Form):
@@ -37,3 +37,11 @@ class SearchForm(forms.Form):
         if data['good_with_cats']:
             dogs = dogs.filter(good_with_cats=True)
         return dogs
+
+
+class AdoptionApplicationForm(forms.ModelForm):
+
+    class Meta:
+        model = AdoptionApplication
+        fields = '__all__'
+        widgets = {'dog': forms.HiddenInput()}

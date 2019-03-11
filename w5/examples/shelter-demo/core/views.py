@@ -1,6 +1,6 @@
-from django.shortcuts import render, get_object_or_404
+from django.shortcuts import render, get_object_or_404, redirect
 from core.models import Dog
-from core.forms import SearchForm
+from core.forms import SearchForm, AdoptionApplicationForm
 
 # Create your views here.
 
@@ -23,4 +23,17 @@ def index_view(request):
 def dog_detail_view(request, dog_pk):
     # dog = Dog.objects.get(pk=dog_pk)
     dog = get_object_or_404(Dog, pk=dog_pk)
-    return render(request, "core/dog_detail.html", {"dog": dog})
+
+    # if form is submitted
+    if request.method == "POST":
+        form = AdoptionApplicationForm(request.POST)
+        if form.is_valid():
+            form.save()
+            return redirect(to='index')
+    else:
+        form = AdoptionApplicationForm(initial={"dog": dog})
+
+    return render(request, "core/dog_detail.html", {
+        "dog": dog,
+        "application_form": form,
+    })
