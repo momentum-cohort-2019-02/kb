@@ -48,16 +48,16 @@ By the end of this week, students should be comfortable with:
 - Function-based views
 - Django templates
 - Intro to models
-- Forms
 
-## Week 5
+## [Week 5](w5/)
 
 By the end of this week, students should be comfortable with:
 
+- Forms
 - Model associations
 - PostgreSQL
-- Management commands
 - Deployment on Heroku
+- Bulk data loading
 
 ## Week 6
 
