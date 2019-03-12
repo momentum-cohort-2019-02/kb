@@ -19,4 +19,4 @@ class AdoptionApplicationAdmin(admin.ModelAdmin):
 
 @admin.register(Event)
 class EventAdmin(admin.ModelAdmin):
-    prepopulated_fields = {"slug": ("title",)}
+    exclude = ('slug',)

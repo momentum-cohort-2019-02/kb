@@ -1,4 +1,6 @@
 from django.db import models
+from django.utils.text import slugify
+from django.urls import reverse
 
 # Create your models here.
 
@@ -71,6 +73,9 @@ class Dog(models.Model):
     def __str__(self):
         return self.name
 
+    def get_absolute_url(self):
+        return reverse('dog_detail', args=(self.pk,))
+
 
 class AdoptionApplication(models.Model):
     dog = models.ForeignKey(
@@ -92,6 +97,24 @@ class Event(models.Model):
 
     class Meta:
         ordering = ['start_at']
+
+    def save(self, *args, **kwargs):
+        self.set_slug()
+        super().save(*args, **kwargs)
+
+    def set_slug(self):
+        if self.slug:
+            return
+
+        base_slug = slugify(self.title)
+        slug = base_slug
+        n = 0
+
+        while Event.objects.filter(slug=slug).count():
+            n += 1
+            slug = base_slug + "-" + str(n)
+
+        self.slug = slug
 
     def __str__(self):
         return self.title

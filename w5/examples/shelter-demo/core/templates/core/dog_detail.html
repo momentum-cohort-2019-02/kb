@@ -7,9 +7,20 @@
   <img src="{{ dog.picture.url }}" alt="{{ dog.name }}, {{ dog.description }}">
 </div>
 
+{% if dog.events.count %}
+<div class="mv2">
+  <h2>Upcoming events with {{ dog.name }}</h2>
+  <ul>
+    {% for event in dog.events.all %}
+      <li><a href="{% url 'event_detail' slug=event.slug %}">{{ event.title }}</a> ({{event.start_at}} - {{event.end_at}})</li>
+    {% endfor %}
+  </ul>
+</div>
+{% endif %}
+
 <div class="mb5">
   <h2>Apply to adopt {{ dog.name }}</h2>
-  <form method="POST" action="{% url 'dog_detail' dog_pk=dog.pk %}">
+  <form method="POST" action="{{ dog.get_absolute_url }}">
     {% csrf_token %}
     {{ application_form.as_p }}
     <p>

@@ -1,5 +1,5 @@
 from django.shortcuts import render, get_object_or_404, redirect
-from core.models import Dog
+from core.models import Dog, Event
 from core.forms import SearchForm, AdoptionApplicationForm
 
 # Create your views here.
@@ -37,3 +37,8 @@ def dog_detail_view(request, dog_pk):
         "dog": dog,
         "application_form": form,
     })
+
+
+def event_detail_view(request, slug):
+    event = get_object_or_404(Event, slug=slug)
+    return render(request, "core/event_detail.html", {"event": event})
