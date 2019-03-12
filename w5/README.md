@@ -14,6 +14,11 @@ Assignment for the week: [Freeshelf](https://classroom.github.com/a/UXCS3iw2)
 - [Django Extensions](https://django-extensions.readthedocs.io/en/latest/)
 - [Django + VSCode tutorial](https://code.visualstudio.com/docs/python/tutorial-django)
 
+### Videos
+
+- [Morning](https://drive.google.com/file/d/1k_ubmFFrBsdIs636dYEgJwrasrwxtz9r/view)
+- [Evening](https://drive.google.com/file/d/11-tfuhcE4KLldp_tnCFmQ6Y9OQYtYFkJ/view)
+
 ## Day 2
 
 - Registration and login
@@ -23,6 +28,10 @@ Assignment for the week: [Freeshelf](https://classroom.github.com/a/UXCS3iw2)
 
 - [How to Create Django User Sign Up View](https://simpleisbetterthancomplex.com/tutorial/2017/02/18/how-to-create-user-sign-up-view.html)
 - [Awesome Django](http://awesome-django.com/)
+
+### Videos
+
+- [Morning](https://drive.google.com/file/d/1jOe12er5B9bl5WaGNHCE9EBh2nRhEBXc/view)
 
 ## Day 3
 
