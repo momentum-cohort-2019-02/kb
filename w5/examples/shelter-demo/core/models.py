@@ -49,6 +49,10 @@ class Dog(models.Model):
         verbose_name="Good with other dogs", default=False)
     good_with_cats = models.BooleanField(
         verbose_name="Good with cats", default=False)
+    created_at = models.DateTimeField(auto_now_add=True)
+
+    class Meta:
+        ordering = ['-created_at']
 
     def get_traits(self):
         traits = []
@@ -76,3 +80,18 @@ class AdoptionApplication(models.Model):
     current_pets = models.PositiveIntegerField("Number of current pets")
     fenced_backyard = models.BooleanField("Do you have a fenced backyard?")
     applied_at = models.DateTimeField(auto_now_add=True)
+
+
+class Event(models.Model):
+    title = models.CharField(max_length=255)
+    slug = models.SlugField(unique=True)
+    start_at = models.DateTimeField()
+    end_at = models.DateTimeField()
+    description = models.TextField(null=True, blank=True)
+    dogs = models.ManyToManyField(Dog, related_name='events', blank=True)
+
+    class Meta:
+        ordering = ['start_at']
+
+    def __str__(self):
+        return self.title

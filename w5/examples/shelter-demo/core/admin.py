@@ -1,6 +1,6 @@
 from django.contrib import admin
 
-from core.models import Dog, AdoptionApplication
+from core.models import Dog, AdoptionApplication, Event
 
 
 @admin.register(Dog)
@@ -15,3 +15,8 @@ class AdoptionApplicationAdmin(admin.ModelAdmin):
         'applicant_name',
         'applied_at',
     )
+
+
+@admin.register(Event)
+class EventAdmin(admin.ModelAdmin):
+    prepopulated_fields = {"slug": ("title",)}
