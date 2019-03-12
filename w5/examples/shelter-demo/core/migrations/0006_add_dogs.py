@@ -18,6 +18,7 @@ def load_dog_data(apps, schema_editor):
         reader = csv.DictReader(file)
         for row in reader:
             dog_name = row['name']
+            # Don't create a dog if one with that name already exists.
             if Dog.objects.filter(name=dog_name).count():
                 continue
             dog = Dog(

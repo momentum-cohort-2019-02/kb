@@ -103,6 +103,7 @@ class Event(models.Model):
         super().save(*args, **kwargs)
 
     def set_slug(self):
+        # If the slug is already set, stop here.
         if self.slug:
             return
 
@@ -110,6 +111,8 @@ class Event(models.Model):
         slug = base_slug
         n = 0
 
+        # while we can find a record already in the DB with the slug
+        # we're trying to use
         while Event.objects.filter(slug=slug).count():
             n += 1
             slug = base_slug + "-" + str(n)
