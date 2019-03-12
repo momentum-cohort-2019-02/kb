@@ -27,11 +27,14 @@ Assignment for the week: [Freeshelf](https://classroom.github.com/a/UXCS3iw2)
 ### References
 
 - [How to Create Django User Sign Up View](https://simpleisbetterthancomplex.com/tutorial/2017/02/18/how-to-create-user-sign-up-view.html)
-- [Awesome Django](http://awesome-django.com/)
+- [Awesome Django](https://github.com/wsvincent/awesome-django)
+- [django-registration-redux](https://django-registration-redux.readthedocs.io/en/latest/)
 
 ### Videos
 
 - [Morning](https://drive.google.com/file/d/1jOe12er5B9bl5WaGNHCE9EBh2nRhEBXc/view)
+- [Afternoon, part 1](https://drive.google.com/file/d/1uriz2P2jXNRKxEybJjCc1Ich6j3Q-C8z/view)
+- [Afternoon, part 2](https://drive.google.com/file/d/1V8fn1SOaVz3mZy8SLanuT2RbEl08sZWb/view)
 
 ## Day 3
 

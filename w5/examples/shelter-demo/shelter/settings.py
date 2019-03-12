@@ -31,6 +31,9 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    # Third-party apps that have to come first
+    'registration',
+
     # Built-in Django apps
     'django.contrib.admin',
     'django.contrib.auth',
@@ -110,7 +113,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'America/New_York'
 
 USE_I18N = True
 
@@ -126,3 +129,11 @@ STATIC_URL = '/static/'
 INTERNAL_IPS = [
     '127.0.0.1',
 ]
+
+# Registation
+
+ACCOUNT_ACTIVATION_DAYS = 7
+LOGIN_REDIRECT_URL = '/'
+
+# Email
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'

@@ -21,6 +21,7 @@ from core import views as core_views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('accounts/', include('registration.backends.default.urls')),
     path('', core_views.index_view, name="index"),
     path('dogs/<int:dog_pk>/', core_views.dog_detail_view, name="dog_detail"),
     path(

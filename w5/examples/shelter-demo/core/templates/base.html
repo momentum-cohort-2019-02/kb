@@ -4,9 +4,10 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Lazy River Shelter - Adopt a Dog</title>
+  <title>Lazy River Shelter - {% block title %}Adopt a Dog{% endblock %}</title>
   <link rel="stylesheet" href="{% static "css/tachyons.css" %}">
   <link rel="stylesheet" href="{% static "css/style.css" %}">
+  {% block meta %}{% endblock %}
 </head>
 
 <body class="sans-serif">
@@ -16,6 +17,19 @@
       <nav class="main-menu">
         <ul class="main-menu__list list pl0 tr">          
           <li class="ph2 dib"><a class="no-underline white" href="/contact/">Contact Us</a></li>                    
+          {% if request.user.is_authenticated %}
+            <li class="ph2 dib">
+              {{ user.username }}
+            </li>
+            <li class="ph2 dib">
+              <a class="no-underline white" href="{% url 'auth_logout' %}">Logout</a>
+            </li>            
+          {% else %}
+            <li class="ph2 dib">
+              <a class="no-underline white" href="{% url 'auth_login' %}">Register / Login</a>
+            </li>
+          {% endif %}
+          </li>                    
         </ul>
       </nav>
     </div>
