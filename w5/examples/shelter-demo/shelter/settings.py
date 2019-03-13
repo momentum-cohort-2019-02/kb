@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/2.1/ref/settings/
 """
 
 import os
+from django.contrib.messages import constants as messages
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -137,3 +138,10 @@ LOGIN_REDIRECT_URL = '/'
 
 # Email
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+
+# Messages
+
+MESSAGE_TAGS = {
+    messages.INFO: 'b--blue bg-light-blue',
+    messages.SUCCESS: 'b--green bg-light-green'
+}

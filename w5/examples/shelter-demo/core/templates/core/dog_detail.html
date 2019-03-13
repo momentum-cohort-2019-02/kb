@@ -36,6 +36,7 @@
 </div>
 {% endif %}
 
+{% if request.user.is_authenticated %}
 <div class="mb5">
   <h2>Apply to adopt {{ dog.name }}</h2>
   <form method="POST" action="{{ dog.get_absolute_url }}">
@@ -46,4 +47,5 @@
     </p>
   </form>
 </div>
+{% endif %}
 {% endblock %}

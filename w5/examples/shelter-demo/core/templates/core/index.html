@@ -65,6 +65,23 @@
         Would you like to <a href="{% url "index" %}">see all dogs</a>?
       </p>
     {% endfor %}
+    <div class="pagination mb6">
+      <span class="step-links">
+          {% if dogs.has_previous %}
+              <a href="?page=1">&laquo; first</a>
+              <a href="?page={{ dogs.previous_page_number }}">previous</a>
+          {% endif %}
+  
+          <span class="current">
+              Page {{ dogs.number }} of {{ dogs.paginator.num_pages }}.
+          </span>
+  
+          {% if dogs.has_next %}
+              <a href="?page={{ dogs.next_page_number }}">next</a>
+              <a href="?page={{ dogs.paginator.num_pages }}">last &raquo;</a>
+          {% endif %}
+      </span>
+    </div>
   </div>
 </section>
 {% endblock %}

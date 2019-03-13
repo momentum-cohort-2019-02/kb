@@ -12,7 +12,7 @@ class DogAdmin(admin.ModelAdmin):
 class AdoptionApplicationAdmin(admin.ModelAdmin):
     list_display = (
         'dog',
-        'applicant_name',
+        'applicant',
         'applied_at',
     )
 

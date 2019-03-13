@@ -96,7 +96,8 @@ class Dog(models.Model):
 class AdoptionApplication(models.Model):
     dog = models.ForeignKey(
         Dog, related_name='applications', on_delete=models.PROTECT)
-    applicant_name = models.CharField(max_length=255)
+    applicant = models.ForeignKey(
+        User, related_name='applications', on_delete=models.PROTECT)
     phone_number = models.CharField(max_length=20)
     current_pets = models.PositiveIntegerField("Number of current pets")
     fenced_backyard = models.BooleanField("Do you have a fenced backyard?")

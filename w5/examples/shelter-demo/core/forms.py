@@ -43,5 +43,5 @@ class AdoptionApplicationForm(forms.ModelForm):
 
     class Meta:
         model = AdoptionApplication
-        fields = '__all__'
+        exclude = ['applicant']
         widgets = {'dog': forms.HiddenInput()}

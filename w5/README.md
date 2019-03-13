@@ -42,6 +42,11 @@ Assignment for the week: [Freeshelf](https://classroom.github.com/a/UXCS3iw2)
 - PostgreSQL
 - Deployment to Heroku
 
+### Videos
+
+- [Morning](https://drive.google.com/file/d/1rjLJc_KKSPc24lkMGYrMSwaX30JNCd-x/view)
+- [Afternoon](https://drive.google.com/file/d/1rjLJc_KKSPc24lkMGYrMSwaX30JNCd-x/view)
+
 ## Day 4
 
 Review
