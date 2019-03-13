@@ -38,30 +38,9 @@ Assignment for the week: [Freeshelf](https://classroom.github.com/a/UXCS3iw2)
 
 ## Day 3
 
-- Models, Views, and Templates
-
-  - Models communicate with the database
-    - Each model has one table in the database
-    - Each model field maps to a field in that table
-    - Models can have methods
-  - Views handle web requests and responses -- communicate with the browser
-    - URLs route requests to views
-    - All the views we've seen so far are functions
-  - Templates -- the HTML that makes up your website
-
-- Other parts of Django
-
-  - Forms
-    - takes user input
-    - validates and cleans user input
-    - ModelForm saves input
-    - displays form in our template
-  - Admin
-  - User authentication
-  - Code to communicate with a database
-  - Settings
-  - Command-line management framework
-  - Routing
+- Authorization
+- PostgreSQL
+- Deployment to Heroku
 
 ## Day 4
 
