@@ -25,6 +25,10 @@ urlpatterns = [
     path('', core_views.index_view, name="index"),
     path('dogs/<int:dog_pk>/', core_views.dog_detail_view, name="dog_detail"),
     path(
+        'dogs/<int:dog_pk>/favorite/',
+        core_views.dog_favorite_view,
+        name="dog_favorite"),
+    path(
         'events/<slug:slug>/',
         core_views.event_detail_view,
         name="event_detail"),

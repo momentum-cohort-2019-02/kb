@@ -1,10 +1,10 @@
-name,description,size,age,good_with_dogs,good_with_kids,good_with_cats,image
-Beans,a black-and-white shaggy dog,M,AD,1,1,1,beans.jpg
-Elsa,a frosty dog,S,AD,0,0,1,elsa.jpg
-Zelda,a Boston terrier,XS,SR,1,1,0,zelda.jpg
-Shackleton,a shaggy white dog,M,AD,1,1,0,old-shaggy.jpg
-Baby,a brown boxer,L,YG,1,1,0,boxer.jpg
-Tom-Tom,a golden lab,L,YG,1,1,1,golden-lab.jpg
-Marco,a little fuzzy dog,S,AD,0,0,0,little-dog.jpg
-Midge,a Shih-Tzu,S,AD,0,1,0,shih-tzu.jpg
-Mina,a young brown-and-white dog,M,PU,1,1,1,young-peppy.jpg
+name,description,size,age,good_with_dogs,good_with_kids,good_with_cats,image,breed
+Beans,a black-and-white shaggy dog,M,AD,1,1,1,beans.jpg,Unknown
+Elsa,a frosty dog,S,AD,0,0,1,elsa.jpg,Unknown
+Zelda,a Boston terrier,XS,SR,1,1,0,zelda.jpg,Boston Terrier
+Shackleton,a shaggy white dog,M,AD,1,1,0,old-shaggy.jpg,Unknown
+Baby,a brown boxer,L,YG,1,1,0,boxer.jpg,Boxer
+Tom-Tom,a golden lab,L,YG,1,1,1,golden-lab.jpg,Golden Retriever
+Marco,a little fuzzy dog,S,AD,0,0,0,little-dog.jpg,Pit Mix
+Midge,a Shih-Tzu,S,AD,0,1,0,shih-tzu.jpg,Shih-Tzu
+Mina,a young brown-and-white dog,M,PU,1,1,1,young-peppy.jpg,Pit Mix

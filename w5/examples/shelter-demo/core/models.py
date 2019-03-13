@@ -1,8 +1,18 @@
 from django.db import models
 from django.utils.text import slugify
 from django.urls import reverse
+from django.contrib.auth import get_user_model
 
 # Create your models here.
+
+User = get_user_model()
+
+
+class DogBreed(models.Model):
+    name = models.CharField(max_length=100, unique=True)
+
+    def __str__(self):
+        return self.name
 
 
 class Dog(models.Model):
@@ -43,6 +53,9 @@ class Dog(models.Model):
     name = models.CharField(max_length=100)
     age = models.CharField(max_length=2, choices=AGE_CHOICES)
     size = models.CharField(max_length=2, choices=SIZE_CHOICES)
+    breed = models.ForeignKey(
+        DogBreed, null=True, blank=True, on_delete=models.SET_NULL)
+    description = models.TextField(null=True, blank=True)
     energy_level = models.PositiveIntegerField(choices=ENERGY_LEVEL_CHOICES)
     picture = models.ImageField(upload_to='dogs/', null=True)
     good_with_kids = models.BooleanField(
@@ -52,6 +65,9 @@ class Dog(models.Model):
     good_with_cats = models.BooleanField(
         verbose_name="Good with cats", default=False)
     created_at = models.DateTimeField(auto_now_add=True)
+
+    favorited_by = models.ManyToManyField(
+        to=User, related_name='favorite_dogs', through='Favorite')
 
     class Meta:
         ordering = ['-created_at']
@@ -121,3 +137,9 @@ class Event(models.Model):
 
     def __str__(self):
         return self.title
+
+
+class Favorite(models.Model):
+    user = models.ForeignKey(User, on_delete=models.CASCADE)
+    dog = models.ForeignKey(Dog, on_delete=models.CASCADE)
+    favorited_at = models.DateTimeField(auto_now_add=True)

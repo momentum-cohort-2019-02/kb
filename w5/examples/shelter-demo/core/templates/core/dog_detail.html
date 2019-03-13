@@ -7,6 +7,24 @@
   <img src="{{ dog.picture.url }}" alt="{{ dog.name }}, {{ dog.description }}">
 </div>
 
+{% if request.user.is_authenticated %}
+<form action="{% url 'dog_favorite' dog_pk=dog.pk %}" method="POST">
+  {% csrf_token %}
+  <button type="submit">
+    {% if dog in request.user.favorite_dogs.all %}
+      Unfavorite
+    {% else %}
+      Favorite
+    {% endif %}
+    this dog</button>
+</form>
+{% endif %}
+
+<p>
+  {{ dog.favorited_by.count }} {{ dog.favorited_by.count|pluralize:"person has,people have" }}
+  favorited this dog.
+</p>
+
 {% if dog.events.count %}
 <div class="mv2">
   <h2>Upcoming events with {{ dog.name }}</h2>
