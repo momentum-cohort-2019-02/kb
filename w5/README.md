@@ -39,8 +39,6 @@ Assignment for the week: [Freeshelf](https://classroom.github.com/a/UXCS3iw2)
 ## Day 3
 
 - Authorization
-- PostgreSQL
-- Deployment to Heroku
 
 ### Videos
 
@@ -49,4 +47,10 @@ Assignment for the week: [Freeshelf](https://classroom.github.com/a/UXCS3iw2)
 
 ## Day 4
 
-Review
+- PostgreSQL
+- Deployment to Heroku
+- Review
+
+### References
+
+- [Python on Heroku](https://devcenter.heroku.com/categories/python-support)
