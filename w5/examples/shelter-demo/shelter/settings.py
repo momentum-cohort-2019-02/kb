@@ -11,6 +11,8 @@ https://docs.djangoproject.com/en/2.1/ref/settings/
 """
 
 import os
+
+import django_heroku
 from django.contrib.messages import constants as messages
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
@@ -145,3 +147,5 @@ MESSAGE_TAGS = {
     messages.INFO: 'b--blue bg-light-blue',
     messages.SUCCESS: 'b--green bg-light-green'
 }
+
+django_heroku.settings(locals())
