@@ -59,7 +59,7 @@ By the end of this week, students should be comfortable with:
 - Deployment on Heroku
 - Bulk data loading
 
-## Week 6
+## [Week 6](w6/)
 
 By the end of this week, students should be comfortable with:
 

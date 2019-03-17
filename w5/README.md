@@ -54,3 +54,7 @@ Assignment for the week: [Freeshelf](https://classroom.github.com/a/UXCS3iw2)
 ### References
 
 - [Python on Heroku](https://devcenter.heroku.com/categories/python-support)
+
+### Videos
+
+- [Heroku setup](https://drive.google.com/file/d/1bCPwvlua-cmGWemRnzqw7eu1l36pS04m/view)
