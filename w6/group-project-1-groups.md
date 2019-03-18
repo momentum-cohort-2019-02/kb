@@ -4,9 +4,9 @@
 - Taylor Cooke, Rob Taylor
 - Juan Polanco, Dennis Dinwiddie
 - Michael Taylor, David Kirk
-- Chinh Le, Daniel Peterson, Anna Smith
+- Chinh Le, Anna Smith
 - Kasey Tiller, Aaron Sellek
 - AJ Bryce, Abby Demarest
 - Craig Brunengraber, Brian Gribbon
-- Kristin Clements, Josh Torain
+- Daniel Peterson, Josh Torain, Kristin Clements
 - Christian Medlin, Daniel Miller
