@@ -1,6 +1,6 @@
 # Week 5
 
-Assignment for the week: [**Apile**](https://classroom.github.com/classrooms/47423278-momentum-cohort-4-feb-2019/group-assignments/w6-apile) (please do not click until introduced in class)
+Assignment for the week: [**Apile**](https://classroom.github.com/g/dH2TgkW2) (please do not click until introduced in class)
 
 [Groups for assignment](group-project-1-groups.md)
 
