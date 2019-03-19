@@ -26,17 +26,25 @@ Assignment for the week: [**Apile**](https://classroom.github.com/g/dH2TgkW2) (p
 ## Day 2
 
 - Review relationship types (ForeignKey, OneToOneField, ManyToManyField)
-- Advanced querying
-  - Sort by count of a relation
-- Aggregations
-- Customizing forms
 
 ### Resources
 
 - [Field lookups in Django](https://docs.djangoproject.com/en/2.1/ref/models/querysets/#id4)
+- [Busyb on GitHub](https://github.com/momentum-cohort-2019-02/busyb)
+
+### Videos
+
+- [Morning 1](https://drive.google.com/file/d/1D_NFB8AES_vK6_T28U4QbwYXbBnkUbXN/view)
+- [Morning 2](https://drive.google.com/file/d/1y3pJQ9nu-KZ3xagT3Y6Qix9aJCk4TIP3/view)
+- [Afternoon 1](https://drive.google.com/file/d/1RQkz63HNtN4FydNlKP_xwmSEXtL1YrFu/view)
+- [Afternoon 2](https://drive.google.com/file/d/1sS7u68AT3QHb0YiaVp0UR4GwZXQ_s9fm/view)
 
 ## Day 3
 
+- Advanced querying
+  - Sort by count of a relation
+- Aggregations
+- Customizing forms
 - Class-based views
 
   - `TemplateView`
