@@ -41,10 +41,6 @@ Assignment for the week: [**Apile**](https://classroom.github.com/g/dH2TgkW2) (p
 
 ## Day 3
 
-- Advanced querying
-  - Sort by count of a relation
-- Aggregations
-- Customizing forms
 - Class-based views
 
   - `TemplateView`
@@ -71,4 +67,8 @@ Assignment for the week: [**Apile**](https://classroom.github.com/g/dH2TgkW2) (p
 ## Day 4
 
 - Review
+- Advanced querying
+  - Sort by count of a relation
+- Aggregations
+- Customizing forms
 - Testing Django
