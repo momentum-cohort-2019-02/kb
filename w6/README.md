@@ -60,15 +60,29 @@ Assignment for the week: [**Apile**](https://classroom.github.com/g/dH2TgkW2) (p
   - `UpdateView`
   - `DeleteView`
 
+- Customizing forms
+
 ### Resources
 
 - [Classy class-based views](http://ccbv.co.uk/)
 
 ## Day 4
 
-- Review
 - Advanced querying
   - Sort by count of a relation
 - Aggregations
+
+
+## Review
+
+- Using Git as a team, working as a team
+- Pair programming
+- What to do if you misspell a package in your Pipfile
+- PostgreSQL setup
+- ForeignKey vs ManyToManyField
+  - When to use each
+  - Examples: notes and tags
+- Registration and login review
+- Class-based views
 - Customizing forms
-- Testing Django
+- Page anchors
