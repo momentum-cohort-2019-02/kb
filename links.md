@@ -37,3 +37,35 @@
 ## Design
 
 * [7 Rules for Creating Gorgeous UI, Part 1](https://medium.com/@erikdkennedy/7-rules-for-creating-gorgeous-ui-part-1-559d4e805cda) and [Part 2](https://medium.com/@erikdkennedy/7-rules-for-creating-gorgeous-ui-part-2-430de537ba96)
+
+
+## Podcasts
+
+- [Hanselminutes](https://www.hanselminutes.com/)
+  - [Finding Engineering Teams that Share Your Values](https://www.hanselminutes.com/654/finding-engineering-teams-that-share-your-key-values-with-lynne-tye)
+  - [Learning How to Be a Wizard Programmer](https://www.hanselminutes.com/643/learning-how-to-be-a-wizard-programmer-with-julia-evans)
+- [JS Party](https://changelog.com/jsparty)
+- [Code Newbie](https://www.codenewbie.org/podcast)
+- [Command Line Heroes](https://www.redhat.com/en/command-line-heroes)
+
+## Websites/blogs
+
+- [Real Python](https://realpython.com/)
+- [Simple is Better Than Complex](https://simpleisbetterthancomplex.com/)
+- [Full Stack Python](https://www.fullstackpython.com/)
+- [Dev.to](https://dev.to/) - create your own blog here
+- [Lobsters](https://lobste.rs/) - link aggregator
+
+## Newsletters
+
+- [Import Python](https://importpython.com/newsletter/)
+- [Python Weekly](https://www.pythonweekly.com/)
+- [Django Weekly](http://djangoweekly.com/newsletter/)
+
+## Books
+
+- [Introduction to Computation and Programming Using Python](https://mitpress.mit.edu/books/introduction-computation-and-programming-using-python-second-edition) - _great book_ to teach yourself more CS skills
+- [Programming for the Puzzled](https://mitpress.mit.edu/books/programming-puzzled)
+- [Exercises in Programming Style](https://www.amazon.com/Exercises-Programming-Style-Cristina-Videira/dp/1482227371)
+- [Data Science from Scratch](http://shop.oreilly.com/product/0636920033400.do)   - if you're interested in data science, this will teach you the fundamentals
+- [The Pragmatic Programmer](https://pragprog.com/book/tpp/the-pragmatic-programmer)

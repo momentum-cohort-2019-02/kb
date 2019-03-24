@@ -68,3 +68,12 @@ By the end of this week, students should be comfortable with:
 - Class-based views
 - File uploads
 - Sending emails
+
+## [Week 7](w7/)
+
+By the end of this week, students should be comfortable with:
+
+- Basic JavaScript
+- Manipulating the DOM
+- Making and responding to Ajax requests
+- The concept of progressive enhancement

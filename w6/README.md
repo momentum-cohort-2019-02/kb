@@ -66,12 +66,22 @@ Assignment for the week: [**Apile**](https://classroom.github.com/g/dH2TgkW2) (p
 
 - [Classy class-based views](http://ccbv.co.uk/)
 
+### Videos
+
+- [Morning](https://drive.google.com/file/d/1TCRtYu-9tV2Tzqm_cTquhGWvtRAdx1wm/view)
+- [Afternoon 1](https://drive.google.com/file/d/1TCRtYu-9tV2Tzqm_cTquhGWvtRAdx1wm/view)
+- [Afternoon 2](https://drive.google.com/file/d/1ZUqkVwmQBPtFj8UnxJqAgRTmEk95COgz/view)
+
 ## Day 4
 
 - Advanced querying
   - Sort by count of a relation
 - Aggregations
 
+### Videos
+
+- [Morning 1](https://drive.google.com/file/d/1VzH1lUq8fxH5dzpiRb0FC43xBm7XSsNF/view)
+- [Morning 2](https://drive.google.com/file/d/1vKnQCfVlibmYHkb7O1L0dqIMoB2DR7iC/view)
 
 ## Review
 
