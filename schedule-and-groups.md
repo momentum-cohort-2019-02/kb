@@ -18,48 +18,48 @@ M - Group A, Tu - Group B, W - Group C, Th - Group D
 * Week 5: M - F, Tu - G, W - H, Th - E
 * Week 6: M - G, Tu - H, W - E, Th - F
 
-**3:00-3:15 PM** one random student shows their work so far
+* Week 7: M - J, Tu - K, W - L, Th - M
+* Week 8: M - K, Tu - L, W - M, Th - J
+* Week 9: M - L, Tu - M, W - J, Th - K
 
-**3:15-4:30 PM** review lecture
+**3:00-4:30 PM** review lecture
 
-# Student groups
+# Third round of student groups
 
-## Group A
+## Group J
 
-- Abby Demarest
-- Daniel Miller
+- Aaron Sellek
+- AJ Bryce
 - David Kirk
-- Juan Polanco
-- Keely Kirkpatrick
+- Michael Taylor
+- Yifaa Yapuncich
+
+## Group K
+
+- Anna Smith
+- Brian Gribbon
+- Christian Medlin
+- Kristin Clements
 - Rob Taylor
 - Ryan Catrine
 
-## Group B
+## Group L
 
-- Anna Smith
 - Bailey Costin
 - Craig Brunengraber
-- Josh Torain
-- Taylor Cooke
-- Yifaa Yapuncich
-
-## Group C
-
-- Aaron Sellek
-- Brian Gribbon
-- Christian Medlin
-- Dennis Dinwiddie
-- Kristin Clements
-- Lin Navarro
-
-## Group D
-
-- AJ Bryce
-- Chinh Le
-- Daniel Peterson
+- Daniel Miller
 - John Mowrey
 - Kasey Tiller
-- Michael Taylor
+- Taylor Cooke
+
+## Group M
+
+- Abby Demarest
+- Chinh Le
+- Daniel Peterson
+- Dennis Dinwiddie
+- Juan Polanco
+- Lin Navarro
 
 ---
 
@@ -101,3 +101,43 @@ M - Group A, Tu - Group B, W - Group C, Th - Group D
 - Rob Taylor
 - Ryan Catrine
 
+---
+
+# First round of student groups
+
+## Group A
+
+- Abby Demarest
+- Daniel Miller
+- David Kirk
+- Juan Polanco
+- Keely Kirkpatrick
+- Rob Taylor
+- Ryan Catrine
+
+## Group B
+
+- Anna Smith
+- Bailey Costin
+- Craig Brunengraber
+- Josh Torain
+- Taylor Cooke
+- Yifaa Yapuncich
+
+## Group C
+
+- Aaron Sellek
+- Brian Gribbon
+- Christian Medlin
+- Dennis Dinwiddie
+- Kristin Clements
+- Lin Navarro
+
+## Group D
+
+- AJ Bryce
+- Chinh Le
+- Daniel Peterson
+- John Mowrey
+- Kasey Tiller
+- Michael Taylor
