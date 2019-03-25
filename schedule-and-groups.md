@@ -56,7 +56,7 @@ M - Group A, Tu - Group B, W - Group C, Th - Group D
 
 - Abby Demarest
 - Chinh Le
-- Daniel Peterson
+- Daniel Peterson  
 - Dennis Dinwiddie
 - Juan Polanco
 - Lin Navarro
@@ -141,3 +141,4 @@ M - Group A, Tu - Group B, W - Group C, Th - Group D
 - John Mowrey
 - Kasey Tiller
 - Michael Taylor
+

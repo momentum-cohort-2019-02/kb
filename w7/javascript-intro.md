@@ -231,8 +231,7 @@ for (let index = 0; index < 3; index++) {
 let nums = [12, 3, 2, 11, 9, -6];
 
 for (let i = 0; i < nums.length; i++) {
-    console.log(i, nums[i]);
-  }
+  console.log(i, nums[i]);
 }
 // 0 12
 // 1 3
