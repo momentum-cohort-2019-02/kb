@@ -7,7 +7,7 @@
 What does it do?
 
 ```js
-for (var headshot of document.querySelectorAll(".staff-member__headshot")) {
+for (let headshot of document.querySelectorAll(".staff-member__headshot")) {
   headshot.addEventListener('mouseover', function (event) {
     headshot.src = headshot.dataset['gif']
   })
@@ -45,8 +45,8 @@ src="https://source.unsplash.com/200x300/?kitten" />
 There is more than one way to do this.
 
 ```js
-var image = document.getElementById('kittenPic')
-var image = document.querySelector('#kittenPic')
+let image = document.getElementById('kittenPic')
+let image = document.querySelector('#kittenPic')
 ```
 
 ---
@@ -82,7 +82,7 @@ Let's look at how to do this!
 # Updating element attributes
 
 ```js
-var mainImg = document.getElementById('main-image')
+let mainImg = document.getElementById('main-image')
 mainImg.src
   // what will this return?
 mainImg.src = 'https://source.unsplash.com/200x300/?ocean'
@@ -124,7 +124,7 @@ existingElement.appendChild(newElement)
 # Removing things from the DOM
 
 ```js
-var elementToRemove = document.querySelectorAll('li')[2]
+let elementToRemove = document.querySelectorAll('li')[2]
 elementToRemove.remove()
 ```
 
@@ -136,7 +136,7 @@ You can directly manipulate the DOM using `.innerHTML`, but you can break it eas
 
 ```js
 let element = document.getElementById('product-title')
-element.innerHTML = '<h2>Boomerang<h2>'
+element.innerHTML = '<h2>Boomerang</h2>'
 ```
 
 ---
