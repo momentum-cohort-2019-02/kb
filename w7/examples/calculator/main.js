@@ -37,11 +37,11 @@ function precisionRound (number, precision) {
 }
 
 function setupNumberButtons () {
-  document.querySelectorAll('.number').forEach(function (element) {
+  for (let element of document.querySelectorAll('.number')) {
     element.addEventListener('click', function (event) {
       if (!error) { addToOutput(event.target.innerText) }
     })
-  })
+  }
 }
 
 function setupOperatorButtons () {
@@ -59,20 +59,16 @@ function setupClearButton () {
   })
 }
 
+function isOperator (str) {
+  return (str === '+' || str === '-' || str === '*' || str === '/')
+}
+
 function setupDecimalButton () {
   document.getElementById('decimal').addEventListener('click', function (event) {
     if (!error) {
       var output = getOutput()
 
-      var isNumber = function (str) {
-        return !isNaN(parseInt(str), 10)
-      }
-
-      var isOperator = function (str) {
-        return (str == '+' || str == '-' || str == '*' || str == '/')
-      }
-
-      if (output == '' || isOperator(output.charAt(output.length - 1))) {
+      if (output === '' || isOperator(output.charAt(output.length - 1))) {
         addToOutput('0.')
         return
       }
@@ -81,7 +77,7 @@ function setupDecimalButton () {
 
       for (var idx = output.length - 1; idx >= 0; idx--) {
         var char = output.charAt(idx)
-        if (char == '.') {
+        if (char === '.') {
           canAddDecimal = false
           break
         } else if (isOperator(char)) {

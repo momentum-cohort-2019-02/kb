@@ -14,22 +14,18 @@ function calculateCurrentOutput () {
 
 function setupNumberButtons () {
   for (let element of document.querySelectorAll('.number')) {
-    // element.addEventListener('click', function (event) {
-    //   addToOutput(event.target.innerText)
-    // })
-
-    element.onclick = function (event) {
+    element.addEventListener('click', function (event) {
       addToOutput(event.target.innerText)
-    }
+    })
   }
 }
 
 function setupOperatorButtons () {
-  document.querySelectorAll('.operator').forEach(function (element) {
+  for (let element of document.querySelectorAll('.operator')) {
     element.addEventListener('click', function (event) {
       addToOutput(event.target.innerText)
     })
-  })
+  }
 }
 
 function setupClearButton () {
