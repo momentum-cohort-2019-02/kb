@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>What's the Weather?</title>
+  <link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css"/>
+</head>
+<body class="sans-serif">
+  <main id="main" class="min-vh-100 bg-blue white pa4 tc">    
+    <div id="temperature" class="f-headline b"></div>
+    <div id="weather" class="f-subheadline"></div>
+    <div class="flex justify-center">
+      <div id="location" class="f2"></div>
+      <div id="icon-holder"></div>
+    </div>
+    <div class="mt4">
+      <input id="zip" type="text" aria-label="ZIP Code" placeholder="ZIP code">
+    </div>
+  </main>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.js"></script> -->
+  <script src="main.js"></script>
+</body>
+</html>
