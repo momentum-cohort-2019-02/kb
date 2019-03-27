@@ -47,7 +47,7 @@ Assignment: [Calculator](https://classroom.github.com/a/ESS-VJL8)
 - Ajax
 - JSON
 
-Assignment: iTunes Search
+Assignment: [iTunes Search](https://classroom.github.com/a/I9vvvg9e)
 
 ### Resources
 

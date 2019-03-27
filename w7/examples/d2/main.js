@@ -1,3 +1,5 @@
+'use strict'
+
 const MAX = 100
 let low = 1
 let high = MAX
@@ -41,7 +43,7 @@ function makeOptions () {
       button.classList.add(cssClass)
     }
   }
-  console.log(optionsDiv.querySelectorAll('button'))
+  console.log('option buttons', optionsDiv.querySelectorAll('button'))
 }
 
 function generateGuess (low, high) {
