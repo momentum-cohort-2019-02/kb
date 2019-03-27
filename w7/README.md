@@ -52,6 +52,7 @@ Assignment: [iTunes Search](https://classroom.github.com/a/I9vvvg9e)
 ### Resources
 
 * [The Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
+* [Google Web Developers article on `fetch`](https://developers.google.com/web/ilt/pwa/working-with-the-fetch-api)
 * [The original Ajax article](http://adaptivepath.org/ideas/ajax-new-approach-web-applications/)
 * [Ajax Basics Explained By Working At A Fast Food Restaurant](https://blog.codeanalogies.com/2018/01/15/ajax-basics-explained-by-working-at-a-fast-food-restaurant/)
 * [HTTP Status Guide](https://httpstatuses.com/)
@@ -66,3 +67,16 @@ Assignment: [iTunes Search](https://classroom.github.com/a/I9vvvg9e)
 
 - [jQuery Fundamentals](http://jqfundamentals.com/)
 
+
+
+----
+
+## Next week's project groups
+
+- Lin Navarro, Juan Polanco, Abby Demarest
+- Taylor Cooke, Aaron Sellek, Christian Medlin
+- Craig Brunengraber, Anna Smith, David Kirk
+- Ryan Catrine, AJ Bryce, Michael Taylor
+- Rob Taylor, Dennis Dinwiddie, Daniel Miller
+- Chinh Le, Brian Gribbon, Yifaa Yapuncich
+- Daniel Peterson, Bailey Costin, Kasey Tiller
