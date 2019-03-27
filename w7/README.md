@@ -21,6 +21,11 @@ Assignment: [JavaScript practice problems](https://classroom.github.com/a/F2pWZI
 - [Simplified JavaScript Jargon](http://jargon.js.org/)
 - [Eloquent JavaScript](https://eloquentjavascript.net/)
 
+### Videos
+
+- [Morning](https://drive.google.com/file/d/1sjb3H3Z6-Bsd-62XB7HGx_METH4mQm5z/view)
+- [Afternoon](https://drive.google.com/file/d/11tqRgebU_yaPYITnTQZQdoY3rtqz8JMp/view)
+
 ## Day 2
 
 - JavaScript and the DOM
@@ -41,6 +46,11 @@ Assignment: [Calculator](https://classroom.github.com/a/ESS-VJL8)
 - [MDN Event Reference](https://developer.mozilla.org/en-US/docs/Web/Events)
 - [The Basics of DOM Manipulation in Vanilla JavaScript](https://www.sitepoint.com/dom-manipulation-vanilla-javascript-no-jquery/)
 
+### Videos
+
+- [Morning](https://drive.google.com/file/d/1OC4SCjTbk-0hy8ZpJxl5X9O9zNKYrxJX/view)
+- [Afternoon](https://drive.google.com/file/d/1UEvAiXEvhiVcPxCbom0Jat91cnxbO8U6/view)
+
 ## Day 3
 
 - onclick vs addEventListener
@@ -57,6 +67,11 @@ Assignment: [iTunes Search](https://classroom.github.com/a/I9vvvg9e)
 * [Ajax Basics Explained By Working At A Fast Food Restaurant](https://blog.codeanalogies.com/2018/01/15/ajax-basics-explained-by-working-at-a-fast-food-restaurant/)
 * [HTTP Status Guide](https://httpstatuses.com/)
 * [HTTP Cats](https://http.cat/)
+
+### Videos
+
+- [Morning](https://drive.google.com/file/d/1qKxkgDTTT8K_14_pX-BRrCI_Bog2MHQf/view)
+- [Afternoon](https://drive.google.com/file/d/1roMqV70V1AvXsZEdNqPmrHzKF1dTEj8Z/view)
 
 ## Day 4
 
