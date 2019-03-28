@@ -80,9 +80,8 @@ Assignment: [iTunes Search](https://classroom.github.com/a/I9vvvg9e)
 
 ### References
 
-- [jQuery Fundamentals](http://jqfundamentals.com/)
-
-
+- [How event delegation works](https://davidwalsh.name/event-delegate)
+- [MDN - event delegation](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events#Event_delegation)
 
 ----
 
