@@ -82,6 +82,12 @@ Assignment: [iTunes Search](https://classroom.github.com/a/I9vvvg9e)
 
 - [How event delegation works](https://davidwalsh.name/event-delegate)
 - [MDN - event delegation](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events#Event_delegation)
+- [The Vanilla JS Toolkit](https://vanillajstoolkit.com/)
+
+### Videos
+
+- [Morning](https://drive.google.com/file/d/14a1EyHSJFiSA2aS3-HVCg7Ts8eIFUbLN/view)
+- [Evening](https://drive.google.com/file/d/11oycJBcJf5JD2FfLcRtCkLS8jzhFQFce/view)
 
 ----
 
