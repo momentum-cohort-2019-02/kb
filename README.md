@@ -77,3 +77,13 @@ By the end of this week, students should be comfortable with:
 - Manipulating the DOM
 - Making and responding to Ajax requests
 - The concept of progressive enhancement
+
+## [Week 8](w8/)
+
+By the end of this week, students should be comfortable with:
+
+- Making web applications that use JavaScript for interactivity
+- Making Django views to accept and respond with JSON
+- Using `npm` on the command line
+- Using ES6 imports
+
