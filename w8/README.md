@@ -10,6 +10,15 @@
 
 - [Group Assignment 2](https://classroom.github.com/g/1AdWNBpZ)
 
+### Resources
+
+- [Overview of HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview)
+- [The Fetch API explained](https://alligator.io/js/fetch-api/)
+
+### Videos
+
+- [Morning](https://drive.google.com/file/d/1Tua_f10SE_DPs3Qw2HnizsofLNCKNxd9/view)
+
 ### Project groups
 
 - Lin Navarro, Juan Polanco, Abby Demarest
