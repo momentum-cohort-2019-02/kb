@@ -43,6 +43,11 @@
 - [How to use browserify with Django](browserify.md)
 - [Modern JavaScript Explained for Dinosaurs -- a history of JavaScript build changes](https://medium.com/the-node-js-collection/modern-javascript-explained-for-dinosaurs-f695e9747b70)
 
+### Videos
+
+- [Morning](https://drive.google.com/file/d/1sS2ccCLKDT4wf_O9XLmPiMItj9XbmYdH/view)
+- [Afternoon](https://drive.google.com/file/d/1yM1FU8_da8b4L9ihxM02WxL-yJlILHNS/view)
+
 ## Day 3
 
 - Overview of REST APIs
