@@ -36,7 +36,7 @@
 - Installing NPM
 - Using [standard.js](https://standardjs.com/)
 - Installing dependencies with NPM
-- Bundling dependencies -- past, present, and futur
+- Bundling dependencies -- past, present, and future
 
 ### Resources
 
