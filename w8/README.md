@@ -2,7 +2,7 @@
 
 ## Day 1
 
-- Accepting JSON 
+- Accepting JSON
 - Responding with JSON
 - Deciding whether to respond with JSON or HTML
 
@@ -18,6 +18,8 @@
 ### Videos
 
 - [Morning](https://drive.google.com/file/d/1Tua_f10SE_DPs3Qw2HnizsofLNCKNxd9/view)
+- [Afternoon](https://drive.google.com/file/d/1vlS9wc1HrCBnsJmsRvasRMN7y_L0JDvx/view)
+
 
 ### Project groups
 
