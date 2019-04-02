@@ -34,6 +34,12 @@
 - Installing NPM
 - Using [standard.js](https://standardjs.com/)
 - Installing dependencies with NPM
+- Bundling dependencies -- past, present, and futur
+
+### Resources
+
+- [How to use browserify with Django](browserify.md)
+- [Modern JavaScript Explained for Dinosaurs -- a history of JavaScript build changes](https://medium.com/the-node-js-collection/modern-javascript-explained-for-dinosaurs-f695e9747b70)
 
 ## Day 3
 
