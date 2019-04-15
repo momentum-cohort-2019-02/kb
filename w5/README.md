@@ -43,7 +43,7 @@ Assignment for the week: [Freeshelf](https://classroom.github.com/a/UXCS3iw2)
 ### Videos
 
 - [Morning](https://drive.google.com/file/d/1rjLJc_KKSPc24lkMGYrMSwaX30JNCd-x/view)
-- [Afternoon](https://drive.google.com/file/d/1rjLJc_KKSPc24lkMGYrMSwaX30JNCd-x/view)
+- [Afternoon](https://drive.google.com/file/d/1QtMfP3nlSflx-3HgyvMZ36-mUtuqJ_LV/view)
 
 ## Day 4
 
