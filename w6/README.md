@@ -69,8 +69,8 @@ Assignment for the week: [**Apile**](https://classroom.github.com/g/dH2TgkW2) (p
 ### Videos
 
 - [Morning](https://drive.google.com/file/d/1TCRtYu-9tV2Tzqm_cTquhGWvtRAdx1wm/view)
-- [Afternoon 1](https://drive.google.com/file/d/1TCRtYu-9tV2Tzqm_cTquhGWvtRAdx1wm/view)
-- [Afternoon 2](https://drive.google.com/file/d/1ZUqkVwmQBPtFj8UnxJqAgRTmEk95COgz/view)
+- [Afternoon 1](https://drive.google.com/file/d/1ZUqkVwmQBPtFj8UnxJqAgRTmEk95COgz/view)
+- [Afternoon 2](https://drive.google.com/file/d/1TX83eAwb-2R-lNRcDL8-Cdt90yC5aOmK/view)
 
 ## Day 4
 
